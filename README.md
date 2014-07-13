@@ -1,0 +1,4 @@
+detkcoin
+========
+
+Cassubian Detk
