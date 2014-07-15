@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DetkCoin
 ================================
 A NEW QUBIT ALGO CRYPTOCOIN WITH A STABILIZER FUND!
@@ -22,3 +23,9 @@ License
 
 DetkCoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
+=======
+detkcoin
+========
+
+Cassubian Detk
+>>>>>>> 64fafa2e0e7cfc8e3acc96b3fb8773bc2dc3ce2d
