@@ -255,7 +255,7 @@
         <translation>رمز مربوط به رمزگذاریِ wallet را تغییر دهید</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
+        <source>Detkcoin</source>
         <translation>bitcoin</translation>
     </message>
     <message>
@@ -389,8 +389,8 @@
         <translation>ویرایش حساب ارسال کننده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای qubitcoin نسشت</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای detkcoin نسشت</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -451,8 +451,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه qubitcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه detkcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     </context>
 <context>
@@ -656,7 +656,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
+        <source>Detkcoin Core is shutting down...</source>
         <translation>هسته بیت کوین در حال خاموش شدن است...</translation>
     </message>
     <message>

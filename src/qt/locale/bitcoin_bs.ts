@@ -11,12 +11,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Jezrga</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -34,15 +34,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Jezrga</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Jezrga</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -109,8 +109,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Jezrga</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Jezrga</translation>
     </message>
     </context>
 <context>

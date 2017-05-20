@@ -167,12 +167,12 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Qubitcoin Core client</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Detkcoin Core client</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -207,12 +207,12 @@
         <translation>Trợ &amp;giúp</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>&amp;Về Qubitcoin Core</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>&amp;Về Detkcoin Core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -362,16 +362,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Về Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Về Detkcoin Core</translation>
     </message>
     </context>
 <context>
@@ -381,8 +381,8 @@
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -577,8 +577,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     </context>
 <context>

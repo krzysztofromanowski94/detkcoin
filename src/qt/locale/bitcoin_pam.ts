@@ -58,12 +58,12 @@
         <translation>Address king pamag-Tanggap</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Reni reng kekang Qubitcoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Reni reng kekang Detkcoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Reni reng kekang Qubitcoin addresses keng pamananggap bayad. Rerekomenda mi na gumamit kang bayung address keng balang transaksiyon.</translation>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Reni reng kekang Detkcoin addresses keng pamananggap bayad. Rerekomenda mi na gumamit kang bayung address keng balang transaksiyon.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -140,8 +140,8 @@
         <translation>Kumpirman ya ing wallet encryption</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
-        <translation>Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG QUBITCOINS&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
+        <translation>Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG DETKCOINS&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -247,8 +247,8 @@
         <translation>&amp;Alilan ing Passphrase...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Magpadalang barya king Qubitcoin address</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Magpadalang barya king Detkcoin address</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -271,8 +271,8 @@
         <translation>&amp;Beripikan ing message...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -303,8 +303,8 @@
         <translation>Gamit para king Tabs</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Kapilubluban ning Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Kapilubluban ning Detkcoin</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -424,8 +424,8 @@
         <translation>Ing pepalub yung address "%1" ati na yu king aklat dareng address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Ing pepalub yung address "%1" ali ya katanggap-tanggap a Qubitcoin address.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Ing pepalub yung address "%1" ali ya katanggap-tanggap a Detkcoin address.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -442,8 +442,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Kapilubluban ning Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Kapilubluban ning Detkcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -469,8 +469,8 @@
         <translation>Malaus ka</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Kapilubluban ning Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Kapilubluban ning Detkcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -495,8 +495,8 @@
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ibuklat yang antimanu ing Qubitcoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ibuklat yang antimanu ing Detkcoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -570,8 +570,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Qubitcoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Detkcoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -878,8 +878,8 @@
         <translation>Kopyan ing kasalungsungan pirma king system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Pirman ing mensayi ban patune na keka ya ining Qubitcoin address</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Pirman ing mensayi ban patune na keka ya ining Detkcoin address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -898,8 +898,8 @@
         <translation>&amp;Beripikan ing Mensayi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Qubitcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Detkcoin address</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -965,8 +965,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Kapilubluban ning Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Kapilubluban ning Detkcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

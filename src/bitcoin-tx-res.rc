@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Qubitcoin"
-            VALUE "FileDescription",    "qubitcoin-tx (CLI Qubitcoin transaction editor utility)"
+            VALUE "CompanyName",        "Detkcoin"
+            VALUE "FileDescription",    "detkcoin-tx (CLI Detkcoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "qubitcoin-tx"
+            VALUE "InternalName",       "detkcoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "qubitcoin-tx.exe"
-            VALUE "ProductName",        "qubitcoin-tx"
+            VALUE "OriginalFilename",   "detkcoin-tx.exe"
+            VALUE "ProductName",        "detkcoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

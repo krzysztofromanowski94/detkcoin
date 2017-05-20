@@ -66,11 +66,11 @@
         <translation>адрасы Прымання</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Тут знаходзяцца Біткойн-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Тут знаходзяцца Біткойн-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
     </message>
     <message>
@@ -160,7 +160,7 @@
         <translation>Пацвердзіце шыфраванне гаманца</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Увага: калі вы зашыфруеце свой гаманец і страціце парольную фразу, то &lt;b&gt;СТРАЦІЦЕ ЎСЕ СВАЕ БІТКОЙНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Ці ўпэўненыя вы, што жадаеце зашыфраваць свой гаманец?</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your qubitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Qubitcoin Core зараз будзе зачынены, каб фіналізаваць працэс шыфравання. Памятайце, што шыфраванне вашага гаманца не гарантуе абсалютную абарону ад магчымасці крадзяжу біткойнаў шкоднымі праграмамі, якія могуць інфікаваць ваш камп'ютар.</translation>
+        <source>Detkcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Detkcoin Core зараз будзе зачынены, каб фіналізаваць працэс шыфравання. Памятайце, што шыфраванне вашага гаманца не гарантуе абсалютную абарону ад магчымасці крадзяжу біткойнаў шкоднымі праграмамі, якія могуць інфікаваць ваш камп'ютар.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Адчыниць &amp;URI...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Qubitcoin Core кліент</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Detkcoin Core кліент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,7 +307,7 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
+        <source>Send coins to a Detkcoin address</source>
         <translation>Даслаць манеты на Біткойн-адрас</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
+        <source>Detkcoin</source>
         <translation>Біткойн</translation>
     </message>
     <message>
@@ -347,8 +347,8 @@
         <translation>Атрымаць</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Паказаць інфармацыю аб Qubitcoin Core</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Паказаць інфармацыю аб Detkcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,11 +363,11 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
         <translation>Падпісаць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
         <translation>Спраўдзіць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
@@ -383,20 +383,20 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
         <translation>Запатрабаваць плацёж (генеруецца QR-код для біткойн URI)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>Аб Qubitcoin Core</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>Аб Detkcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Qubitcoin Core</source>
-        <translation>Мадыфікаваць опцыі канфігурацыі Qubitcoin Core</translation>
+        <source>Modify configuration options for Detkcoin Core</source>
+        <translation>Мадыфікаваць опцыі канфігурацыі Detkcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,7 +407,7 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
+        <source>Open a detkcoin: URI or payment request</source>
         <translation>Адкрыць біткойн: URI ці запыт плацяжу</translation>
     </message>
     <message>
@@ -415,12 +415,12 @@
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
-        <translation>Паказваць даведку Qubitcoin Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
+        <translation>Паказваць даведку Detkcoin Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Qubitcoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з сецівам Qubitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Qubitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Qubitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Qubitcoin</numerusform></translation>
+        <source>%n active connection(s) to Detkcoin network</source>
+        <translation><numerusform>%n актыўнае злучэнне з сецівам Detkcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Detkcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Detkcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Detkcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -772,16 +772,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-біт)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Аб Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Аб Detkcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -803,12 +803,12 @@
         <translation>Вітаем</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Вітаем у Qubitcoin Core.</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Вітаем у Detkcoin Core.</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1067,12 +1067,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Распрацоўнікі Qubitcoin Core</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Распрацоўнікі Detkcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

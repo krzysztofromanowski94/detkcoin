@@ -3,8 +3,8 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
-Name: Qubitcoin Core consensus library
-Description: Library for the Qubitcoin consensus protocol.
+Name: Detkcoin Core consensus library
+Description: Library for the Detkcoin consensus protocol.
 Version: @PACKAGE_VERSION@
 Libs: -L${libdir} -lbitcoinconsensus
 Cflags: -I${includedir}

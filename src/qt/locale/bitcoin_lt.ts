@@ -144,7 +144,7 @@
         <translation>Patvirtinkite piniginės užšifravimą</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO BITCOINUS&lt;/b&gt;! </translation>
     </message>
     <message>
@@ -263,8 +263,8 @@
         <translation>Atidaryti &amp;URI...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Qubitcoin Core klientas</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Detkcoin Core klientas</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -275,8 +275,8 @@
         <translation>Blokai iš naujo indeksuojami...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Siųsti monetas Qubitcoin adresui</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Siųsti monetas Detkcoin adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -299,8 +299,8 @@
         <translation>&amp;Tikrinti žinutę...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -315,8 +315,8 @@
         <translation>&amp;Gauti</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Rodyti informaciją apie Qubitcoin Core</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Rodyti informaciją apie Detkcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -347,12 +347,12 @@
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin branduolys</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin branduolys</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>&amp;Apie Qubitcoin Core</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>&amp;Apie Detkcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -584,8 +584,8 @@
         <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Qubitcoin adresas.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Detkcoin adresas.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -606,16 +606,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin branduolys</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin branduolys</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versija</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Apie Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Apie Detkcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -637,12 +637,12 @@
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Sveiki atvykę į Qubitcoin Core.</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Sveiki atvykę į Detkcoin Core.</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin branduolys</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin branduolys</translation>
     </message>
     <message>
         <source>Error</source>
@@ -667,8 +667,8 @@
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Qubitcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Detkcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1162,7 +1162,7 @@
         <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
+        <source>Sign the message to prove you own this Detkcoin address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1178,8 +1178,8 @@
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Qubitcoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Detkcoin adresas</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1229,8 +1229,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin branduolys</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin branduolys</translation>
     </message>
     <message>
         <source>[testnet]</source>

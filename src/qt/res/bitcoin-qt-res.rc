@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Qubitcoin"
-            VALUE "FileDescription",    "Qubitcoin Core (GUI node for Qubitcoin)"
+            VALUE "CompanyName",        "Detkcoin"
+            VALUE "FileDescription",    "Detkcoin Core (GUI node for Detkcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "qubitcoin-qt"
+            VALUE "InternalName",       "detkcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "qubitcoin-qt.exe"
-            VALUE "ProductName",        "Qubitcoin Core"
+            VALUE "OriginalFilename",   "detkcoin-qt.exe"
+            VALUE "ProductName",        "Detkcoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

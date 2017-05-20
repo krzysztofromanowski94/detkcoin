@@ -62,11 +62,11 @@
         <translation>Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Qubitcoin.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Detkcoin.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Alamat-alamat Anda supaya menerima pembayaran. Dianjurkan agar Anda menggunakan alamat menerima yang baru untuk setiap transaksi.</translation>
     </message>
     <message>
@@ -152,7 +152,7 @@
         <translation>Konfirmasi enkripsi dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH BITCOIN ANDA&lt;/B&gt;!</translation>
     </message>
     <message>
@@ -267,8 +267,8 @@
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Client Qubitcoin Inti</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Client Detkcoin Inti</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -279,8 +279,8 @@
         <translation>Mengindex ulang block di harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Kirim koin ke alamat Qubitcoin</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Kirim koin ke alamat Detkcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -319,8 +319,8 @@
         <translation>&amp;Menerima</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Tampilkan informasi tentang Qubitcoin Inti</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Tampilkan informasi tentang Detkcoin Inti</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -335,12 +335,12 @@
         <translation>Mengenkripsi kunci-kunci pribadi yang dipunyai dompetmu</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Tandalah pesanan dengan alamat-alamat Qubitcoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Tandalah pesanan dengan alamat-alamat Detkcoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Qubitcoin yang terperinci</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Detkcoin yang terperinci</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -359,16 +359,16 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Permintaan pembayaran (membangkitkan kode QR dan qubitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Permintaan pembayaran (membangkitkan kode QR dan detkcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>&amp;Mengenai Qubitcoin Core</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>&amp;Mengenai Detkcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -379,20 +379,20 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>Buka URI qubitcoin: atau permintaan pembayaran</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>Buka URI detkcoin: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
-        <translation>Tampilkan pesan bantuan Qubitcoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Qubitcoin</translation>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
+        <translation>Tampilkan pesan bantuan Detkcoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Detkcoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Qubitcoin network</source>
-        <translation><numerusform>%n hubungan aktif ke jaringan Qubitcoin</numerusform></translation>
+        <source>%n active connection(s) to Detkcoin network</source>
+        <translation><numerusform>%n hubungan aktif ke jaringan Detkcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -704,8 +704,8 @@
         <translation>Alamat yang dimasukkan "%1" sudah ada di dalam buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukan alamat Qubitcoin yang benar.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukan alamat Detkcoin yang benar.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -742,16 +742,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versi</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Mengenai Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Mengenai Detkcoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -769,8 +769,8 @@
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Selamat Datang ke Qubitcoin Core</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Selamat Datang ke Detkcoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -781,8 +781,8 @@
         <translation>Menggunakan direktori data yang dipilih Anda:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -875,8 +875,8 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Qubitcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Detkcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -970,8 +970,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Qubitcoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Detkcoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1513,8 +1513,8 @@
         <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Qubitcoin address</source>
-        <translation>Awas: Alamat Qubitcoin tidak sah</translation>
+        <source>Warning: Invalid Detkcoin address</source>
+        <translation>Awas: Alamat Detkcoin tidak sah</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1591,8 +1591,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
-        <translation>Qubitcoin Core sementara dimatikan...</translation>
+        <source>Detkcoin Core is shutting down...</source>
+        <translation>Detkcoin Core sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1638,8 +1638,8 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Qubitcoin ini</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Detkcoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1717,12 +1717,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Pembangun Qubitcoin Core</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Pembangun Detkcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2199,8 +2199,8 @@
         <translation>Jalankan perintah ketika perubahan transaksi dompet (%s di cmd digantikan oleh TxID)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Qubitcoin Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Qubitcoin Core sudah mulai.</translation>
+        <source>Unable to bind to %s on this computer. Detkcoin Core is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Detkcoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2319,8 +2319,8 @@
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Qubitcoin Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Qubitcoin Core sudah mulai.</translation>
+        <source>Cannot obtain a lock on data directory %s. Detkcoin Core is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Detkcoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Information</source>

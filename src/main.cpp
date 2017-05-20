@@ -35,7 +35,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Qubitcoin cannot be compiled without assertions."
+# error "Detkcoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -64,6 +64,7 @@ uint64_t nPruneTarget = 0;
 bool fAlerts = DEFAULT_ALERTS;
 
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying and mining) */
+// ToDo minRelayTxFee
 CFeeRate minRelayTxFee = CFeeRate(5000);
 
 CTxMemPool mempool(::minRelayTxFee);
@@ -86,7 +87,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Qubitcoin Signed Message:\n";
+const string strMessageMagic = "Detkcoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -743,7 +744,7 @@ bool CheckFinalTx(const CTransaction &tx, int flags)
 /**
  * Check transaction inputs to mitigate two
  * potential denial-of-service attacks:
- * 
+ *
  * 1. scriptSigs with extra data stuffed into them,
  *    not consumed by scriptPubKey (or P2SH script)
  * 2. P2SH scripts with a crazy number of expensive
@@ -1238,11 +1239,13 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
     return true;
 }
 
+
+// ToDo nStartSubsidy nMinSubsidy nGenesisBlockRewardCoin
 static const CAmount nStartSubsidy = 2048 * COIN;
 static const CAmount nMinSubsidy = 1 * COIN;
 static const CAmount nGenesisBlockRewardCoin = 1 * COIN;
 
-CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
+CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams) // ToDo == GetBlockValue
 {
     if (nHeight == 0)
     {
@@ -1253,7 +1256,7 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 	{
         return nGenesisBlockRewardCoin;
 	}
-    
+
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
     // Force block reward to minimum when right shift is undefined.
     if (halvings >= 64)
@@ -1826,7 +1829,7 @@ void PartitionCheck(bool (*initialDownloadCheck)(), CCriticalSection& cs, const 
                                nBlocks, SPAN_HOURS, BLOCKS_EXPECTED);
     }
     */
-    
+
     if (!strWarning.empty())
     {
         strMiscWarning = strWarning;
@@ -1885,7 +1888,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         }
     }
 
-    // BIP16 active 
+    // BIP16 active
     bool fStrictPayToScriptHash = true;
     unsigned int flags = fStrictPayToScriptHash ? SCRIPT_VERIFY_P2SH : SCRIPT_VERIFY_NONE;
 
@@ -2224,7 +2227,7 @@ static int64_t nTimeFlush = 0;
 static int64_t nTimeChainState = 0;
 static int64_t nTimePostConnect = 0;
 
-/** 
+/**
  * Connect a new block to chainActive. pblock is either NULL or a pointer to a CBlock
  * corresponding to pindexNew, to bypass loading it again from disk.
  */

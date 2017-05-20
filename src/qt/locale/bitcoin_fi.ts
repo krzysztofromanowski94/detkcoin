@@ -66,12 +66,12 @@
         <translation>Vastaanottava osoite</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Qubitcoin osoitteita maksujen lähetykseen. Tarkista aina summa ja vastaanottajan osoite ennenkuin lähetät kolikkoja.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Detkcoin osoitteita maksujen lähetykseen. Tarkista aina summa ja vastaanottajan osoite ennenkuin lähetät kolikkoja.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Qubitcoin-osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin transaktiolle.</translation>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Detkcoin-osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin transaktiolle.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,7 +160,7 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI BITCOINISI&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Haluatko varmasti salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your qubitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Qubitcoin Core sammuu nyt viimeistelläkseen kryptaamisen. Muista että lompakon kryptaaminen ei voi täysin suojata qubitcoinejasi varkaudelta malwaren saastuttamalla tietokoneella.</translation>
+        <source>Detkcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Detkcoin Core sammuu nyt viimeistelläkseen kryptaamisen. Muista että lompakon kryptaaminen ei voi täysin suojata detkcoinejasi varkaudelta malwaren saastuttamalla tietokoneella.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Qubitcoin Core ohjelma</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Detkcoin Core ohjelma</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Lähetä kolikoita Qubitcoin-osoitteeseen</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Lähetä kolikoita Detkcoin-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Näytä tietoja Qubitcoin Core:sta</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Näytä tietoja Detkcoin Core:sta</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -356,19 +356,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Qubitcoin-ikkuna</translation>
+        <translation>Näytä tai piilota Detkcoin-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Qubitcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Detkcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Qubitcoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Detkcoin -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin-ydin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin-ydin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja qubitcoin: URIt)</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja detkcoin: URIt)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>&amp;Tietoja Qubitcoin Core</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>&amp;Tietoja Detkcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Qubitcoin Core</source>
-        <translation>Muokkaa kokoonpanoasetuksia Qubitcoin Corelle</translation>
+        <source>Modify configuration options for Detkcoin Core</source>
+        <translation>Muokkaa kokoonpanoasetuksia Detkcoin Corelle</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>Avaa qubitcoin: URI tai maksupyyntö</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>Avaa detkcoin: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
-        <translation>Näytä Qubitcoin Core ohjeet saadaksesi listan mahdollisista Qubitcoinin komentorivivalinnoista</translation>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
+        <translation>Näytä Detkcoin Core ohjeet saadaksesi listan mahdollisista Detkcoinin komentorivivalinnoista</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Qubitcoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys Qubitcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Qubitcoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Detkcoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Detkcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Detkcoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -806,8 +806,8 @@
         <translation>Osoite "%1" on jo osoitekirjassa.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Antamasi osoite "%1" ei ole validi Qubitcoin-osoite.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Antamasi osoite "%1" ei ole validi Detkcoin-osoite.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin-ydin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin-ydin</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Tietoja Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Tietoja Detkcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Tervetuloa Qubitcoin Core</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Tervetuloa Detkcoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Qubitcoin Core will store its data.</source>
-        <translation>Tämän on ensimmäinen kerta kun Qubitcoin Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+        <source>As this is the first time the program is launched, you can choose where Detkcoin Core will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun Detkcoin Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will download and store a copy of the Qubitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Qubitcoin Core lataa ja tallentaa kopion Qubitcoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>Detkcoin Core will download and store a copy of the Detkcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Detkcoin Core lataa ja tallentaa kopion Detkcoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin-ydin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin-ydin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1001,12 +1001,12 @@
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>Automatically start Qubitcoin Core after logging in to the system.</source>
-        <translation>Käynnistä Qubitcoin Core automaattisesti järjestelmään kirjautumisen jälkeen.</translation>
+        <source>Automatically start Detkcoin Core after logging in to the system.</source>
+        <translation>Käynnistä Detkcoin Core automaattisesti järjestelmään kirjautumisen jälkeen.</translation>
     </message>
     <message>
-        <source>&amp;Start Qubitcoin Core on system login</source>
-        <translation>&amp;Käynnistä Qubitcoin Core järjestelmään kirjautuessa</translation>
+        <source>&amp;Start Detkcoin Core on system login</source>
+        <translation>&amp;Käynnistä Detkcoin Core järjestelmään kirjautuessa</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1033,16 +1033,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Qubitcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Detkcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the Qubitcoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Qubitcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the Detkcoin network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Detkcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1086,11 +1086,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona qubitcoin-määrät näytetään</translation>
+        <translation>Yksikkö jona detkcoin-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti qubitcoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti detkcoin-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1140,8 +1140,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Qubitcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Detkcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1181,7 +1181,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Qubitcoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Detkcoinien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1239,16 +1239,16 @@
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
-        <translation>Ei voida käynnistää qubitcoin: klikkaa-maksu käsittelijää</translation>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
+        <translation>Ei voida käynnistää detkcoin: klikkaa-maksu käsittelijää</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Maksupyynnön haku URL on virheellinen: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Qubitcoin address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Qubitcoin-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Detkcoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Detkcoin-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1325,8 +1325,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Qubitcoin address (e.g. %1)</source>
-        <translation>Syötä Qubitcoin-osoite (esim. %1)</translation>
+        <source>Enter a Detkcoin address (e.g. %1)</source>
+        <translation>Syötä Detkcoin-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1551,8 +1551,8 @@
         <translation>Tyhjennä konsoli</translation>
     </message>
     <message>
-        <source>Welcome to the Qubitcoin Core RPC console.</source>
-        <translation>Tervetuloa Qubitcoin Coren RPC-konsoliin.</translation>
+        <source>Welcome to the Detkcoin Core RPC console.</source>
+        <translation>Tervetuloa Detkcoin Coren RPC-konsoliin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1626,8 +1626,8 @@
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Qubitcoin network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Qubitcoin-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Detkcoin network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Detkcoin-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1776,7 +1776,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Qubitcoineja</translation>
+        <translation>Lähetä Detkcoineja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1920,7 +1920,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Hyväksy Qubitcoinien lähettäminen</translation>
+        <translation>Hyväksy Detkcoinien lähettäminen</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1960,7 +1960,7 @@
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 Qubitcoinia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 Detkcoinia.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -1995,8 +1995,8 @@
         <translation>Vastaanottajan osoite ei ole kelvollinen. Tarkistathan uudelleen.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Qubitcoin address</source>
-        <translation>Varoitus: Virheellinen Qubitcoin osoite</translation>
+        <source>Warning: Invalid Detkcoin address</source>
+        <translation>Varoitus: Virheellinen Detkcoin osoite</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2046,8 +2046,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to send the payment to</source>
-        <translation>Qubitcoin-osoite johon maksu lähetetään</translation>
+        <source>The Detkcoin address to send the payment to</source>
+        <translation>Detkcoin-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2086,8 +2086,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the qubitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Qubitcoin network.</source>
-        <translation>Viesti joka liitettiin qubitcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Qubitcoin-verkkoon.</translation>
+        <source>A message that was attached to the detkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Detkcoin network.</source>
+        <translation>Viesti joka liitettiin detkcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Detkcoin-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2101,8 +2101,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
-        <translation>Qubitcoin core sulkeutuu...</translation>
+        <source>Detkcoin Core is shutting down...</source>
+        <translation>Detkcoin core sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2120,8 +2120,8 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to sign the message with</source>
-        <translation>Qubitcoin-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Detkcoin address to sign the message with</source>
+        <translation>Detkcoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2152,8 +2152,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Qubitcoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Detkcoin-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2172,12 +2172,12 @@
         <translation>&amp;Varmista viesti</translation>
     </message>
     <message>
-        <source>The Qubitcoin address the message was signed with</source>
-        <translation>Qubitcoin-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Detkcoin address the message was signed with</source>
+        <translation>Detkcoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Qubitcoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Detkcoin-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2243,12 +2243,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin-ydin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin-ydin</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Qubitcoin Core kehittäjät</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Detkcoin Core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2688,7 +2688,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Qubitcoineja</translation>
+        <translation>Lähetä Detkcoineja</translation>
     </message>
 </context>
 <context>
@@ -2777,8 +2777,8 @@
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Qubitcoin Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Qubitcoin Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. Detkcoin Core is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. Detkcoin Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2937,8 +2937,8 @@
         <translation>Tuodaan lohkoja ulkoisesta blk000??.dat tiedostosta</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Qubitcoin Core is probably already running.</source>
-        <translation>Ei voida lukita data-hakemistoa %s. Qubitcoin Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. Detkcoin Core is probably already running.</source>
+        <translation>Ei voida lukita data-hakemistoa %s. Detkcoin Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -2981,12 +2981,12 @@
         <translation>Yhdistä SOCKS5 proxin kautta</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Qubitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i  Qubitcoin kehittäjät</translation>
+        <source>Copyright (C) 2009-%i The Detkcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i  Detkcoin kehittäjät</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Qubitcoin Core</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Qubitcoinista</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Detkcoin Core</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Detkcoinista</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3085,8 +3085,8 @@
         <translation>Käyttäjätunnus JSON-RPC-yhteyksille</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Qubitcoin Core to complete</source>
-        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Qubitcoin uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart Detkcoin Core to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Detkcoin uudelleen</translation>
     </message>
     <message>
         <source>Warning</source>

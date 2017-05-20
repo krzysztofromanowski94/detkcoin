@@ -381,7 +381,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "qubitcoin";
+    const char* pszModule = "detkcoin";
 #endif
     if (pex)
         return strprintf(
@@ -408,7 +408,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Qubitcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Detkcoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -420,10 +420,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Qubitcoin";
+    return pathRet / "Detkcoin";
 #else
     // Unix
-    return pathRet / ".QubitCoin";
+    return pathRet / ".DetkCoin";
 #endif
 #endif
 }
@@ -470,7 +470,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "QubitCoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "DetkCoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -506,7 +506,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "QubitCoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "DetkCoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

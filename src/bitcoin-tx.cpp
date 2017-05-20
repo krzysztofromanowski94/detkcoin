@@ -44,10 +44,10 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Qubitcoin Core qubitcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Detkcoin Core detkcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  qubitcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded qubitcoin transaction") + "\n" +
-              "  qubitcoin-tx [options] -create [commands]   " + _("Create hex-encoded qubitcoin transaction") + "\n" +
+              "  detkcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded detkcoin transaction") + "\n" +
+              "  detkcoin-tx [options] -create [commands]   " + _("Create hex-encoded detkcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

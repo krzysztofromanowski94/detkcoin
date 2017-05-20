@@ -66,12 +66,12 @@
         <translation>Қабул қилинадиган манзиллар</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Улар тўловларни жўнатиш учун сизнинг Qubitcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Улар тўловларни жўнатиш учун сизнинг Detkcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Улар тўловларни қабул қилиш учун сизнинг Qubitcoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Улар тўловларни қабул қилиш учун сизнинг Detkcoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,7 +160,7 @@
         <translation>Ҳамённи кодлашни тасдиқлаш</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА BITCOIN ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -287,8 +287,8 @@
         <translation>Интернет манзилни очиш</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Qubitcoin асос мижози</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Detkcoin асос мижози</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,8 +299,8 @@
         <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Тангаларни Qubitcoin манзилига жўнатиш</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Тангаларни Detkcoin манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,8 +323,8 @@
         <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Қабул қилиш</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Qubitcoin Core ҳақидаги маълумотларни кўрсатиш</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Detkcoin Core ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,12 +355,12 @@
         <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Qubitcoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Detkcoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Хабарларни махсус Qubitcoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Хабарларни махсус Detkcoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,16 +379,16 @@
         <translation>Ички ойналар асбоблар панели</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва qubitcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Тўловлар (QR кодлари ва detkcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>Qubitcoin Core &amp;ҳақида</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>Detkcoin Core &amp;ҳақида</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -399,20 +399,20 @@
         <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>Qubitcoin’ни очиш: URI ёки тўлов сўрови</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>Detkcoin’ни очиш: URI ёки тўлов сўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
-        <translation>Мавжуд Qubitcoin буйруқлар матни мосламалари билан  Qubitcoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
+        <translation>Мавжуд Detkcoin буйруқлар матни мосламалари билан  Detkcoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Qubitcoin network</source>
-        <translation><numerusform>%n та Qubitcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <source>%n active connection(s) to Detkcoin network</source>
+        <translation><numerusform>%n та Detkcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -736,8 +736,8 @@
         <translation>Киритилган "%1" манзили аллақачон манзил китобида.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Киритилган "%1" манзили тўғри Qubitcoin манзили эмас.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Киритилган "%1" манзили тўғри Detkcoin манзили эмас.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -774,8 +774,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -786,8 +786,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Qubitcoin Core ҳақида</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Detkcoin Core ҳақида</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -805,16 +805,16 @@
         <translation>Хуш келибсиз</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>"Qubitcoin Core"га хуш келибсиз.</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>"Detkcoin Core"га хуш келибсиз.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Qubitcoin Core will store its data.</source>
-        <translation>Биринчи марта дастур ишга тушгани каби сиз Qubitcoin Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
+        <source>As this is the first time the program is launched, you can choose where Detkcoin Core will store its data.</source>
+        <translation>Биринчи марта дастур ишга тушгани каби сиз Detkcoin Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will download and store a copy of the Qubitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Qubitcoin Core юклаб олинади ва Qubitcoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
+        <source>Detkcoin Core will download and store a copy of the Detkcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Detkcoin Core юклаб олинади ва Detkcoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -825,8 +825,8 @@
         <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -978,8 +978,8 @@
         <translation>Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Qubitcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Detkcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1477,8 +1477,8 @@
         <translation>Тўлов миқдори 0. дан катта бўлиши керак. </translation>
     </message>
     <message>
-        <source>Warning: Invalid Qubitcoin address</source>
-        <translation>Диққат: Нотўғр Qubitcoin манзили</translation>
+        <source>Warning: Invalid Detkcoin address</source>
+        <translation>Диққат: Нотўғр Detkcoin манзили</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1557,12 +1557,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Qubitcoin Core дастурчилари</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Detkcoin Core дастурчилари</translation>
     </message>
     <message>
         <source>[testnet]</source>

@@ -66,12 +66,12 @@
         <translation>Adresa de primire</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sînt adresele dumneavoastră Qubitcoin pentru efectuarea plăţilor. Verificaţi întotdeauna cantitatea şi adresa de primire înainte de a trimite monezi.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sînt adresele dumneavoastră Detkcoin pentru efectuarea plăţilor. Verificaţi întotdeauna cantitatea şi adresa de primire înainte de a trimite monezi.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Acestea sînt adresele dumneavoastră Qubitcoin folosite pentru a primi plati. Este recomandat să folosiţi o adresă nouă de primire pentru fiecare tranzacţie în parte.</translation>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sînt adresele dumneavoastră Detkcoin folosite pentru a primi plati. Este recomandat să folosiţi o adresă nouă de primire pentru fiecare tranzacţie în parte.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,7 +160,7 @@
         <translation>Confirmaţi criptarea portofelului</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Atenţie: Dacă pierdeţi parola portofelului electronic după criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE BITCOIN ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Sigur doriţi să criptaţi portofelul dvs.?</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your qubitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Qubitcoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
+        <source>Detkcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Detkcoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Clientul Qubitcoin Core</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Clientul Detkcoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Trimite monede către o adresă Qubitcoin</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Trimite monede către o adresă Detkcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Verifică mesaj...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>P&amp;rimeşte</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Arată informaţii despre Qubitcoin Core</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Arată informaţii despre Detkcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. Qubitcoin pentru a dovedi că vă aparţin</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Semnaţi mesaje cu adresa dvs. Detkcoin pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Qubitcoin specificată</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Detkcoin specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Bara de unelte</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Nucleul Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Nucleul Detkcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi qubitcoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Cereţi plăţi (generează coduri QR şi detkcoin-uri: URls)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>&amp;Despre Nucleul Qubitcoin</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>&amp;Despre Nucleul Detkcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Qubitcoin Core</source>
-        <translation>Modifică opţiunile de configurare pentru Qubitcoin</translation>
+        <source>Modify configuration options for Detkcoin Core</source>
+        <translation>Modifică opţiunile de configurare pentru Detkcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Arată lista de adrese pentru primire şi etichetele</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>Deschidere qubitcoin: o adresa URI sau o cerere de plată</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>Deschidere detkcoin: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
-        <translation>Arată mesajul de ajutor Qubitcoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă Qubitcoin</translation>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
+        <translation>Arată mesajul de ajutor Detkcoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă Detkcoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Qubitcoin network</source>
-        <translation><numerusform>%n conexiune activă către reţeaua Qubitcoin</numerusform><numerusform>%n conexiuni active către reţeaua Qubitcoin</numerusform><numerusform>%n de conexiuni active către reţeaua Qubitcoin</numerusform></translation>
+        <source>%n active connection(s) to Detkcoin network</source>
+        <translation><numerusform>%n conexiune activă către reţeaua Detkcoin</numerusform><numerusform>%n conexiuni active către reţeaua Detkcoin</numerusform><numerusform>%n de conexiuni active către reţeaua Detkcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -798,8 +798,8 @@
         <translation>Adresa introdusă "%1" se află deja în lista de adrese.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Adresa introdusă "%1" nu este o adresă qubitcoin validă.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Adresa introdusă "%1" nu este o adresă detkcoin validă.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -836,8 +836,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Nucleul Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Nucleul Detkcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -848,8 +848,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Despre Nucleul Qubitcoin</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Despre Nucleul Detkcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -871,12 +871,12 @@
         <translation>Bun venit</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Bine aţi venit la Nucleul Qubitcoin.</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Bine aţi venit la Nucleul Detkcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Qubitcoin Core will store its data.</source>
-        <translation>Dacă aceasta este prima dată cînd programul este lansat, puteţi alege unde Nucleul Qubitcoin va stoca datele.</translation>
+        <source>As this is the first time the program is launched, you can choose where Detkcoin Core will store its data.</source>
+        <translation>Dacă aceasta este prima dată cînd programul este lansat, puteţi alege unde Nucleul Detkcoin va stoca datele.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -887,8 +887,8 @@
         <translation>Foloseşte un dosar de date personalizat:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Nucleul Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Nucleul Detkcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -969,8 +969,8 @@
         <translation>Minimizează fereastra în locul părăsirii programului în momentul închiderii ferestrei. Cînd acestă opţiune e activă, aplicaţia se va opri doar în momentul selectării comenzii 'Închide aplicaţia' din menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Qubitcoin Core.</source>
-        <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Nucleului Qubitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Detkcoin Core.</source>
+        <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Nucleului Detkcoin.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -997,8 +997,8 @@
         <translation>Reţea</translation>
     </message>
     <message>
-        <source>&amp;Start Qubitcoin Core on system login</source>
-        <translation>Porneşte Nucleul Qubitcoin la pornirea sistemului</translation>
+        <source>&amp;Start Detkcoin Core on system login</source>
+        <translation>Porneşte Nucleul Detkcoin la pornirea sistemului</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1025,16 +1025,16 @@
         <translation>Cheltuire rest neconfirmat</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Qubitcoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului Detkcoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapare port folosind &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Qubitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectare la reţeaua Qubitcoin printr-un proxy SOCKS.</translation>
+        <source>Connect to the Detkcoin network through a SOCKS5 proxy.</source>
+        <translation>Conectare la reţeaua Detkcoin printr-un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1082,7 +1082,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de qubitcoin.</translation>
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de detkcoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1122,7 +1122,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa qubitcoin pe care aţi specificat-o nu este validă.</translation>
+        <translation>Adresa detkcoin pe care aţi specificat-o nu este validă.</translation>
     </message>
 </context>
 <context>
@@ -1132,8 +1132,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Qubitcoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Detkcoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1231,16 +1231,16 @@
         <translation>Eroare la cererea de plată</translation>
     </message>
     <message>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
-        <translation>Nu poate porni qubitcoin: manipulator clic-pentru-plată</translation>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
+        <translation>Nu poate porni detkcoin: manipulator clic-pentru-plată</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL-ul cererii de plată preluat nu este valid: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Qubitcoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Qubitcoin nevalidă sau parametri URI deformaţi.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Detkcoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Detkcoin nevalidă sau parametri URI deformaţi.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1313,8 +1313,8 @@
         <translation>Cantitate</translation>
     </message>
     <message>
-        <source>Enter a Qubitcoin address (e.g. %1)</source>
-        <translation>Introduceţi o adresă Qubitcoin (de exemplu %1)</translation>
+        <source>Enter a Detkcoin address (e.g. %1)</source>
+        <translation>Introduceţi o adresă Detkcoin (de exemplu %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1523,8 +1523,8 @@
         <translation>Curăţă consola</translation>
     </message>
     <message>
-        <source>Welcome to the Qubitcoin Core RPC console.</source>
-        <translation>Bun venit la consola Nucleului Qubitcoin RPC.</translation>
+        <source>Welcome to the Detkcoin Core RPC console.</source>
+        <translation>Bun venit la consola Nucleului Detkcoin RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1598,8 +1598,8 @@
         <translation>R&amp;efoloseşte o adresă de primire (nu este recomandat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Qubitcoin network.</source>
-        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Qubitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Detkcoin network.</source>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Detkcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1955,8 +1955,8 @@
         <translation>Adresa destinatarului nu este validă, vă rugăm să o verificaţi.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Qubitcoin address</source>
-        <translation>Atenţie: Adresa qubitcoin nevalidă!</translation>
+        <source>Warning: Invalid Detkcoin address</source>
+        <translation>Atenţie: Adresa detkcoin nevalidă!</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2006,8 +2006,8 @@
         <translation>Aceasta este o tranzacţie normală.</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to send the payment to</source>
-        <translation>Adresa qubitcoin către care se face plata</translation>
+        <source>The Detkcoin address to send the payment to</source>
+        <translation>Adresa detkcoin către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2034,8 +2034,8 @@
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the qubitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Qubitcoin network.</source>
-        <translation>un mesaj a fost ataşat la qubitcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua qubitcoin.</translation>
+        <source>A message that was attached to the detkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Detkcoin network.</source>
+        <translation>un mesaj a fost ataşat la detkcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua detkcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2049,8 +2049,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
-        <translation>Nucleul Qubitcoin se închide...</translation>
+        <source>Detkcoin Core is shutting down...</source>
+        <translation>Nucleul Detkcoin se închide...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2068,7 +2068,7 @@
         <translation>&amp;Semnează mesaj</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to sign the message with</source>
+        <source>The Detkcoin address to sign the message with</source>
         <translation>Adresa cu care semnaţi mesajul</translation>
     </message>
     <message>
@@ -2100,8 +2100,8 @@
         <translation>Copiază semnatura curentă în clipboard-ul sistemului</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Qubitcoin</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Detkcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2120,12 +2120,12 @@
         <translation>&amp;Verifică mesaj</translation>
     </message>
     <message>
-        <source>The Qubitcoin address the message was signed with</source>
-        <translation>Introduceţi o adresă Qubitcoin</translation>
+        <source>The Detkcoin address the message was signed with</source>
+        <translation>Introduceţi o adresă Detkcoin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Qubitcoin specificată</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Detkcoin specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2191,12 +2191,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Nucleul Qubitcoin</translation>
+        <source>Detkcoin Core</source>
+        <translation>Nucleul Detkcoin</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Dezvoltatorii Nucleului Qubitcoin</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Dezvoltatorii Nucleului Detkcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2628,7 +2628,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Trimitere qubitcoin</translation>
+        <translation>Trimitere detkcoin</translation>
     </message>
 </context>
 <context>
@@ -2721,8 +2721,8 @@
         <translation>Aceasta este o versiune de test preliminară - vă asumaţi riscul folosind-o - nu folosiţi pentru minerit sau aplicaţiile comercianţilor</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Qubitcoin Core is probably already running.</source>
-        <translation>Nu se poate lega la %s pe acest calculator. Nucleul Qubitcoin probabil deja rulează.</translation>
+        <source>Unable to bind to %s on this computer. Detkcoin Core is probably already running.</source>
+        <translation>Nu se poate lega la %s pe acest calculator. Nucleul Detkcoin probabil deja rulează.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2881,8 +2881,8 @@
         <translation>A apărut o eroare la setarea adresei RPC %s portul %u pentru ascultare: %s</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Qubitcoin Core is probably already running.</source>
-        <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul Qubitcoin probabil deja rulează.</translation>
+        <source>Cannot obtain a lock on data directory %s. Detkcoin Core is probably already running.</source>
+        <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul Detkcoin probabil deja rulează.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -2909,8 +2909,8 @@
         <translation>Conectare prin proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Qubitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Dezvoltatorii Qubitcoin</translation>
+        <source>Copyright (C) 2009-%i The Detkcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i Dezvoltatorii Detkcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2929,8 +2929,8 @@
         <translation>Informaţie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Qubitcoin Core is shutting down.</source>
-        <translation>Nu s-a reuşit iniţierea verificării sănătăţii. Nucleul Qubitcoin se opreşte.</translation>
+        <source>Initialization sanity check failed. Detkcoin Core is shutting down.</source>
+        <translation>Nu s-a reuşit iniţierea verificării sănătăţii. Nucleul Detkcoin se opreşte.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -2958,7 +2958,7 @@
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opţiuni RPC SSL: (vedeţi Wiki Qubitcoin pentru intrucţiunile de setare SSL)</translation>
+        <translation>Opţiuni RPC SSL: (vedeţi Wiki Detkcoin pentru intrucţiunile de setare SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3037,8 +3037,8 @@
         <translation>Utilizator pentru conexiunile JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Qubitcoin Core to complete</source>
-        <translation>Portofelul necesită rescrierea: reporniţi Nucleul Qubitcoin pentru completare</translation>
+        <source>Wallet needed to be rewritten: restart Detkcoin Core to complete</source>
+        <translation>Portofelul necesită rescrierea: reporniţi Nucleul Detkcoin pentru completare</translation>
     </message>
     <message>
         <source>Warning</source>

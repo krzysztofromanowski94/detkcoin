@@ -66,12 +66,12 @@
         <translation>Imenik naslovov za prejemanje</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To je vaš imenik shranjenih naslovov Qubitcoin, na katere lahko pošiljate plačila. Pred vsakim odlivom vedno preverite, če sta znesek in prejemnikov naslov pravilna.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To je vaš imenik shranjenih naslovov Detkcoin, na katere lahko pošiljate plačila. Pred vsakim odlivom vedno preverite, če sta znesek in prejemnikov naslov pravilna.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To je imenik vaših ustvarjenih naslovov Qubitcoin, na katere lahko prejemate plačila. Priporočljivo je, da za vsak nov priliv ustvarite nov prejemni naslov.</translation>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To je imenik vaših ustvarjenih naslovov Detkcoin, na katere lahko prejemate plačila. Priporočljivo je, da za vsak nov priliv ustvarite nov prejemni naslov.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,7 +160,7 @@
         <translation>Potrditev šifriranja denarnice</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE BITCOINE V DENARNICI&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Ali ste prepričani, da želite šifrirati vašo denarnico?</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your qubitcoins from being stolen by malware infecting your computer.</source>
+        <source>Detkcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
         <translation>Program se bo zaprl, da dokonča proces šifriranja. Zapomnite si, da šifriranje ne more popolnoma zaščititi vaše denarnice pred krajami in zlonamernimi programi, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
@@ -295,8 +295,8 @@
         <translation>Odpri &amp;URI ...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Odjemalec Qubitcoin Core</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Odjemalec Detkcoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Poustvarjam kazalo blokov na disku ...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Izvedite plačilo na naslov Qubitcoin</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Izvedite plačilo na naslov Detkcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Preveri sporočilo ...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,7 +347,7 @@
         <translation>P&amp;rejmi</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
+        <source>Show information about Detkcoin Core</source>
         <translation>Oglejte si informacije o programu</translation>
     </message>
     <message>
@@ -363,12 +363,12 @@
         <translation>Šifrirajte zasebne ključe, ki se nahajajo v denarnici</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Podpišite poljubno sporočilo z enim svojih naslovov Qubitcoin, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Podpišite poljubno sporočilo z enim svojih naslovov Detkcoin, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom Qubitcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom Detkcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,19 +387,19 @@
         <translation>Orodna vrstica zavihkov</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa qubitcoin:)</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa detkcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
+        <source>&amp;About Detkcoin Core</source>
         <translation>&amp;O programu</translation>
     </message>
     <message>
-        <source>Modify configuration options for Qubitcoin Core</source>
+        <source>Modify configuration options for Detkcoin Core</source>
         <translation>Spremenite programske nastavitve</translation>
     </message>
     <message>
@@ -411,20 +411,20 @@
         <translation>Preglejte in uredite seznam naslovov, na katere ste kdaj prejeli plačila</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>Izvedite plačilo iz zahtevka v datoteki ali iz URI tipa qubitcoin:</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>Izvedite plačilo iz zahtevka v datoteki ali iz URI tipa detkcoin:</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
         <translation>Oglejte si seznam in kratek opis vseh opcij pri zagonu programa iz ukazne vrstice</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Qubitcoin network</source>
-        <translation><numerusform>%n aktivna povezava v qubitcoin omrežje</numerusform><numerusform>%n aktivni povezavi v qubitcoin omrežje</numerusform><numerusform>%n aktivne povezave v qubitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v qubitcoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to Detkcoin network</source>
+        <translation><numerusform>%n aktivna povezava v detkcoin omrežje</numerusform><numerusform>%n aktivni povezavi v detkcoin omrežje</numerusform><numerusform>%n aktivne povezave v detkcoin omrežje</numerusform><numerusform>%n aktivnih povezav v detkcoin omrežje</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -806,8 +806,8 @@
         <translation>Vnešeni naslov %1 je že v imeniku.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Vnešeni naslov %1 ni veljaven naslov Qubitcoin.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Vnešeni naslov %1 ni veljaven naslov Detkcoin.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>O programu Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>O programu Detkcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,15 +879,15 @@
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Dobrodošli v programu Qubitcoin Core.</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Dobrodošli v programu Detkcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Qubitcoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Detkcoin Core will store its data.</source>
         <translation>To je prvi zagon programa, zato lahko izberete mapo, v katero bo program shranjeval podatke.</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will download and store a copy of the Qubitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Detkcoin Core will download and store a copy of the Detkcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Program bo prenesel in shranil kopijo verige blokov. V izbrani podatkovni mapi bo shranjenih vsaj %1 GiB podatkov, ta količina pa bo sčasoma še naraščala. V tej mapi bo shranjena tudi denarnica.</translation>
     </message>
     <message>
@@ -899,8 +899,8 @@
         <translation>Uporabi to podatkovno mapo:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -977,7 +977,7 @@
         <translation>Ko zaprete glavno okno programa, bo program tekel še naprej, okno pa bo zgolj minimirano. Program v tem primeru ustavite tako, da v meniju izberete ukaz Izhod.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Qubitcoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Detkcoin Core.</source>
         <translation>Nastavitev jezika uporabniškega vmesnika programa. Nova nastavitev jezika bo uporabljena šele, ko boste znova zagnali program.</translation>
     </message>
     <message>
@@ -1005,11 +1005,11 @@
         <translation>&amp;Omrežje</translation>
     </message>
     <message>
-        <source>Automatically start Qubitcoin Core after logging in to the system.</source>
+        <source>Automatically start Detkcoin Core after logging in to the system.</source>
         <translation>Ob uporabnikovi prijavi v sistem se bo program samodejno zagnal</translation>
     </message>
     <message>
-        <source>&amp;Start Qubitcoin Core on system login</source>
+        <source>&amp;Start Detkcoin Core on system login</source>
         <translation>&amp;Zaženi program ob prijavi v sistem</translation>
     </message>
     <message>
@@ -1037,7 +1037,7 @@
         <translation>Omogoči &amp;trošenje drobiža iz še nepotrjenih plačil</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Program samodejno odpre ustrezna vrata na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira in ima omogočen UPnP.</translation>
     </message>
     <message>
@@ -1045,8 +1045,8 @@
         <translation>Preslikaj vrata z uporabo &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Qubitcoin network through a SOCKS5 proxy.</source>
-        <translation>Poveži se v omrežje Qubitcoin preko posredniškega strežnika SOCKS5.</translation>
+        <source>Connect to the Detkcoin network through a SOCKS5 proxy.</source>
+        <translation>Poveži se v omrežje Detkcoin preko posredniškega strežnika SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1144,8 +1144,8 @@
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem Qubitcoin, a trenutno ta proces še ni zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem Detkcoin, a trenutno ta proces še ni zaključen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1243,16 +1243,16 @@
         <translation>Napaka pri zahtevku za plačilo</translation>
     </message>
     <message>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
-        <translation>Ni mogoče zagnati rokovalca plačilnih povezav tipa qubitcoin:.</translation>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
+        <translation>Ni mogoče zagnati rokovalca plačilnih povezav tipa detkcoin:.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Naslov URL za pridobitev zahtevka za plačilo ni veljaven: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Qubitcoin address or malformed URI parameters.</source>
-        <translation>URI je neprepoznaven! Možno je, da je naslov Qubitcoin neveljaven, ali da so parametri v URI napačno oblikovani.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Detkcoin address or malformed URI parameters.</source>
+        <translation>URI je neprepoznaven! Možno je, da je naslov Detkcoin neveljaven, ali da so parametri v URI napačno oblikovani.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1329,8 +1329,8 @@
         <translation>Znesek</translation>
     </message>
     <message>
-        <source>Enter a Qubitcoin address (e.g. %1)</source>
-        <translation>Vnesite naslov Qubitcoin (npr. %1):</translation>
+        <source>Enter a Detkcoin address (e.g. %1)</source>
+        <translation>Vnesite naslov Detkcoin (npr. %1):</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1439,7 +1439,7 @@
         <translation>Trenutno število blokov</translation>
     </message>
     <message>
-        <source>Open the Qubitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Detkcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Odpre razhroščevalni dnevnik debug.log, ki se nahaja v trenutni podatkovni mapi. Če je datoteka velika, lahko postopek traja nekaj sekund.</translation>
     </message>
     <message>
@@ -1559,8 +1559,8 @@
         <translation>Počisti konzolo</translation>
     </message>
     <message>
-        <source>Welcome to the Qubitcoin Core RPC console.</source>
-        <translation>Dobrodošli v konzoli RPC programa Qubitcoin Core.</translation>
+        <source>Welcome to the Detkcoin Core RPC console.</source>
+        <translation>Dobrodošli v konzoli RPC programa Detkcoin Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1634,8 +1634,8 @@
         <translation>P&amp;onovno uporabite obstoječ naslov za prejemanje. (Ni priporočeno.)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Qubitcoin network.</source>
-        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja Qubitcoin tega sporočila ne bo vsebovalo.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Detkcoin network.</source>
+        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja Detkcoin tega sporočila ne bo vsebovalo.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1867,7 +1867,7 @@
         <translation>skupno vsaj</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for qubitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for detkcoin transactions than the network can process.</source>
         <translation>Dokler bo v blokih še dovolj prostora za vse nastajajoče transakcije, zadostuje, če plačate samo minimalno provizijo. Ko pa se bo količina vseh transakcij povečala do meja zmogljivosti omrežja, se lahko zgodi, da vaša transakcija brez večje provizije nikoli ne bo potrjena.</translation>
     </message>
     <message>
@@ -2023,8 +2023,8 @@
         <translation>Naslov je že bil uporabljen. Vsak naslov naj bi se uporabil samo enkrat.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Qubitcoin address</source>
-        <translation>Opozorilo: Neveljaven qubitcoin naslov</translation>
+        <source>Warning: Invalid Detkcoin address</source>
+        <translation>Opozorilo: Neveljaven detkcoin naslov</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2074,8 +2074,8 @@
         <translation>Plačilo je navadne vrste.</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to send the payment to</source>
-        <translation>Naslov Qubitcoin, na katerega bo plačilo poslano</translation>
+        <source>The Detkcoin address to send the payment to</source>
+        <translation>Naslov Detkcoin, na katerega bo plačilo poslano</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2094,7 +2094,7 @@
         <translation>Izpraznite vsebino polja</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less qubitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less detkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Znesek plačila bo zmanjšan za znesek provizije. Prejemnik bo prejel manjše število kovancev, kot je bil vnešeni znesek. Če je prejemnikov več, bo provizija med njih enakomerno porazdeljena.</translation>
     </message>
     <message>
@@ -2118,8 +2118,8 @@
         <translation>Če vnesete oznako za zgornji naslov, se bo skupaj z naslovom shranila v imenk že uporabljenih naslovov</translation>
     </message>
     <message>
-        <source>A message that was attached to the qubitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Qubitcoin network.</source>
-        <translation>Sporočilo, ki ste ga pripeli na URI tipa qubitcoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Qubitcoin.</translation>
+        <source>A message that was attached to the detkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Detkcoin network.</source>
+        <translation>Sporočilo, ki ste ga pripeli na URI tipa detkcoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Detkcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2133,7 +2133,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
+        <source>Detkcoin Core is shutting down...</source>
         <translation>Program se ustavlja ...</translation>
     </message>
     <message>
@@ -2152,12 +2152,12 @@
         <translation>&amp;Podpiši sporočilo</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive qubitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive detkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to sign the message with</source>
-        <translation>Naslov Qubitcoin, s katerim podpisujete sporočilo</translation>
+        <source>The Detkcoin address to sign the message with</source>
+        <translation>Naslov Detkcoin, s katerim podpisujete sporočilo</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2188,7 +2188,7 @@
         <translation>Kopiranje trenutnega podpisa na sistemsko odložišče.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
+        <source>Sign the message to prove you own this Detkcoin address</source>
         <translation>Podpišite sporočilo, da dokažete lastništvo nad zgornjim naslovom.</translation>
     </message>
     <message>
@@ -2212,12 +2212,12 @@
         <translation>Da preverite verodostojnost sporočila, spodaj vnesite: prejemnikov naslov, prejeto sporočilo (pazljivo skopirajte vse prelome vrstic, presledke, tabulatorje ipd.,) in prejeti podpis. Da se izognete napadom tipa man-in-the-middle, vedite, da iz veljavnega podpisa ne sledi nič drugega, kot tisto, kar je navedeno v sporočilu. Podpis samo potrjuje dejstvo, da ima podpisnik v lasti prejemni naslov, ne more pa dokazati vira nobene transakcije!</translation>
     </message>
     <message>
-        <source>The Qubitcoin address the message was signed with</source>
-        <translation>Naslov Qubitcoin, s katerim je bilo sporočilo podpisano</translation>
+        <source>The Detkcoin address the message was signed with</source>
+        <translation>Naslov Detkcoin, s katerim je bilo sporočilo podpisano</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom Qubitcoin.</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom Detkcoin.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2283,12 +2283,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Qubitcoin Core razvijalci</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Detkcoin Core razvijalci</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2833,8 +2833,8 @@
         <translation>To je preizkusna različica še neizdanega programa. Uporabljate jo na lastno odgovornost. Programa ne uporabljajte je za rudarjenje ali trgovske aplikacije.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Qubitcoin Core is probably already running.</source>
-        <translation>Na tem računalniku ni bilo mogoče vezati naslova %s. Odjemalec Qubitcoin Core je verjetno že zagnan.</translation>
+        <source>Unable to bind to %s on this computer. Detkcoin Core is probably already running.</source>
+        <translation>Na tem računalniku ni bilo mogoče vezati naslova %s. Odjemalec Detkcoin Core je verjetno že zagnan.</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
@@ -3025,8 +3025,8 @@
         <translation>Veži dani naslov in sprejemaj povezave na JSON-RPC. Za naslove protokola IPv6 uporabite zapis [gostitelj]:vrata. To opcijo lahko navedete večkrat. (privzeto: veži vse omrežne vmesnike)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Qubitcoin Core is probably already running.</source>
-        <translation>Ne morem zakleniti podatkovne mape %s. Qubitcoin Core je verjetno že zagnan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Detkcoin Core is probably already running.</source>
+        <translation>Ne morem zakleniti podatkovne mape %s. Detkcoin Core je verjetno že zagnan.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3061,8 +3061,8 @@
         <translation>Na vsak posredniški strežnik se prijavi z drugimi naključnimi podatki. Tako je omogočena osamitev tokov v omrežju Tor (privzeto: %u)</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Qubitcoin Core will not work properly.</source>
-        <translation>Opozorilo: Preverite, če sta datum in ura na vašem računalniku točna! Qubitcoin Core ne bo dobro deloval, če je nastavljeni čas nepravilen.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Detkcoin Core will not work properly.</source>
+        <translation>Opozorilo: Preverite, če sta datum in ura na vašem računalniku točna! Detkcoin Core ne bo dobro deloval, če je nastavljeni čas nepravilen.</translation>
     </message>
     <message>
         <source>(default: %u)</source>
@@ -3089,8 +3089,8 @@
         <translation>Poveži se preko posredniškega strežnika SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Qubitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Qubitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-%i The Detkcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Detkcoin Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

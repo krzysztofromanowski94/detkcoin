@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -201,8 +201,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Qubitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your qubitcoins from being stolen by malware infecting your computer.</source>
+        <source>Detkcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -377,7 +377,7 @@
     </message>
     <message>
         <location line="+176"/>
-        <source>Qubitcoin Core client</source>
+        <source>Detkcoin Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -392,8 +392,8 @@
     </message>
     <message>
         <location line="-417"/>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Send coins to a Qubitcoin address</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Send coins to a Detkcoin address</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -422,8 +422,8 @@
     </message>
     <message>
         <location line="+440"/>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <location line="-654"/>
@@ -442,7 +442,7 @@
     </message>
     <message>
         <location line="+40"/>
-        <source>Show information about Qubitcoin Core</source>
+        <source>Show information about Detkcoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -462,13 +462,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Qubitcoin addresses to prove you own them</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Sign messages with your Detkcoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Qubitcoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Detkcoin addresses</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -492,22 +492,22 @@
     </message>
     <message>
         <location line="-311"/>
-        <source>Qubitcoin Core</source>
-        <translation type="unfinished">Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation type="unfinished">Detkcoin Core</translation>
     </message>
     <message>
         <location line="+164"/>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+38"/>
-        <source>&amp;About Qubitcoin Core</source>
+        <source>&amp;About Detkcoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Modify configuration options for Qubitcoin Core</source>
+        <source>Modify configuration options for Detkcoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -522,7 +522,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a qubitcoin: URI or payment request</source>
+        <source>Open a detkcoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -532,15 +532,15 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+310"/>
-        <source>%n active connection(s) to Qubitcoin network</source>
+        <source>%n active connection(s) to Detkcoin network</source>
         <translation>
-            <numerusform>%n active connection to Qubitcoin network</numerusform>
-            <numerusform>%n active connections to Qubitcoin network</numerusform>
+            <numerusform>%n active connection to Detkcoin network</numerusform>
+            <numerusform>%n active connections to Detkcoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -1028,8 +1028,8 @@
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Qubitcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Qubitcoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Detkcoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Detkcoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+33"/>
-        <source>Qubitcoin Core</source>
-        <translation type="unfinished">Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation type="unfinished">Detkcoin Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1090,7 +1090,7 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Qubitcoin Core</source>
+        <source>About Detkcoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1118,17 +1118,17 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Qubitcoin Core.</source>
+        <source>Welcome to Detkcoin Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Qubitcoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Detkcoin Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Qubitcoin Core will download and store a copy of the Qubitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Detkcoin Core will download and store a copy of the Detkcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1143,8 +1143,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Qubitcoin Core</source>
-        <translation type="unfinished">Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation type="unfinished">Detkcoin Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1250,7 +1250,7 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Qubitcoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Detkcoin Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1286,12 +1286,12 @@
     </message>
     <message>
         <location line="-153"/>
-        <source>Automatically start Qubitcoin Core after logging in to the system.</source>
+        <source>Automatically start Detkcoin Core after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Qubitcoin Core on system login</source>
+        <source>&amp;Start Detkcoin Core on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1326,8 +1326,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1336,7 +1336,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Qubitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Detkcoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1461,8 +1461,8 @@
     <message>
         <location line="+59"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1595,7 +1595,7 @@
     </message>
     <message>
         <location line="-408"/>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1605,7 +1605,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Qubitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Detkcoin address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1702,7 +1702,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+110"/>
-        <source>Enter a Qubitcoin address (e.g. %1)</source>
+        <source>Enter a Detkcoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1862,7 +1862,7 @@
     </message>
     <message>
         <location line="+72"/>
-        <source>Open the Qubitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Detkcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2014,7 +2014,7 @@
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-36"/>
-        <source>Welcome to the Qubitcoin Core RPC console.</source>
+        <source>Welcome to the Detkcoin Core RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2110,7 +2110,7 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Qubitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Detkcoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2404,7 +2404,7 @@
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for qubitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for detkcoin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2610,7 +2610,7 @@
     </message>
     <message>
         <location line="+231"/>
-        <source>Warning: Invalid Qubitcoin address</source>
+        <source>Warning: Invalid Detkcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2675,7 +2675,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Qubitcoin address to send the payment to</source>
+        <source>The Detkcoin address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2702,7 +2702,7 @@
     </message>
     <message>
         <location line="-1021"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less qubitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less detkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2732,7 +2732,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the qubitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Qubitcoin network.</source>
+        <source>A message that was attached to the detkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Detkcoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2752,7 +2752,7 @@
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+81"/>
-        <source>Qubitcoin Core is shutting down...</source>
+        <source>Detkcoin Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2775,12 +2775,12 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive qubitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive detkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Qubitcoin address to sign the message with</source>
+        <source>The Detkcoin address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2822,8 +2822,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Sign the message to prove you own this Qubitcoin address</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Sign the message to prove you own this Detkcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2853,13 +2853,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Qubitcoin address the message was signed with</source>
+        <source>The Detkcoin address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Qubitcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Detkcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2947,12 +2947,12 @@
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+41"/>
-        <source>Qubitcoin Core</source>
-        <translation type="unfinished">Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation type="unfinished">Detkcoin Core</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Qubitcoin Core developers</source>
+        <source>The Detkcoin Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3659,7 +3659,7 @@
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Qubitcoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Detkcoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3899,7 +3899,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Qubitcoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Detkcoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3984,16 +3984,16 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>To use qubitcoind, or the -server option to qubitcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use detkcoind, or the -server option to detkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=qubitcoinrpc
+rpcuser=detkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Qubitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Detkcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4004,7 +4004,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Qubitcoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Qubitcoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Detkcoin Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4054,7 +4054,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Qubitcoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Copyright (C) 2009-%i The Qubitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Detkcoin Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4064,7 +4064,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Qubitcoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+10"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Qubitcoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Detkcoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4094,7 +4094,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Qubitcoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Qubitcoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Detkcoin Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4264,7 +4264,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Qubitcoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart Qubitcoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Detkcoin Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

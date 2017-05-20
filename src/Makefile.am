@@ -60,11 +60,11 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += qubitcoind
+  bin_PROGRAMS += detkcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += qubitcoin-cli qubitcoin-tx
+  bin_PROGRAMS += detkcoin-cli detkcoin-tx
 endif
 
 .PHONY: FORCE
@@ -320,16 +320,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# qubitcoind binary #
-qubitcoind_SOURCES = bitcoind.cpp
-qubitcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-qubitcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# detkcoind binary #
+detkcoind_SOURCES = bitcoind.cpp
+detkcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+detkcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-qubitcoind_SOURCES += bitcoind-res.rc
+detkcoind_SOURCES += bitcoind-res.rc
 endif
 
-qubitcoind_LDADD = \
+detkcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -340,45 +340,45 @@ qubitcoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-qubitcoind_LDADD += libbitcoin_wallet.a
+detkcoind_LDADD += libbitcoin_wallet.a
 endif
 
-qubitcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+detkcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
 #
 
-# qubitcoin-cli binary #
-qubitcoin_cli_SOURCES = bitcoin-cli.cpp
-qubitcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
-qubitcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# detkcoin-cli binary #
+detkcoin_cli_SOURCES = bitcoin-cli.cpp
+detkcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+detkcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-qubitcoin_cli_SOURCES += bitcoin-cli-res.rc
+detkcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-qubitcoin_cli_LDADD = \
+detkcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL)
 
-qubitcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS)
+detkcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS)
 #
 
-# qubitcoin-tx binary #
-qubitcoin_tx_SOURCES = bitcoin-tx.cpp
-qubitcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
-qubitcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# detkcoin-tx binary #
+detkcoin_tx_SOURCES = bitcoin-tx.cpp
+detkcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+detkcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-qubitcoin_tx_SOURCES += bitcoin-tx-res.rc
+detkcoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-qubitcoin_tx_LDADD = \
+detkcoin_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-qubitcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+detkcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

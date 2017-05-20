@@ -66,12 +66,12 @@
         <translation>Fogadó címek</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezekről a címekről küldhetsz qubitcoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezekről a címekről küldhetsz detkcoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezekkel a címekkel fogadhatsz qubitcoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezekkel a címekkel fogadhatsz detkcoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,7 +160,7 @@
         <translation>Biztosan titkosítani akarod a tárcát?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Figyelem: ha titkosítod a tárcát és elveszted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES BITCOINOD ELVESZIK!&lt;/b&gt;</translation>
     </message>
     <message>
@@ -287,8 +287,8 @@
         <translation>&amp;URI azonosító megnyitása...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Qubitcoin Core kliens</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Detkcoin Core kliens</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,8 +299,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Qubitcoin küldése megadott címre</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Detkcoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,8 +323,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Fogadás</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Qubitcoin Core információ megjelenítése</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Detkcoin Core információ megjelenítése</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,12 +355,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Qubitcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Detkcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Qubitcoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Detkcoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,16 +379,16 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "qubitcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "detkcoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>&amp;A Qubitcoin Core-ról</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>&amp;A Detkcoin Core-ról</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -399,16 +399,16 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>"qubitcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>"detkcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
-        <translation>A Qubitcoin Core súgóüzenet megjelenítése a Qubitcoin lehetséges parancssori kapcsolóival.</translation>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
+        <translation>A Detkcoin Core súgóüzenet megjelenítése a Detkcoin lehetséges parancssori kapcsolóival.</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -732,8 +732,8 @@
         <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Qubitcoin-cím.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Detkcoin-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -766,8 +766,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -778,8 +778,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>A Qubitcoin Core-ról</translation>
+        <source>About Detkcoin Core</source>
+        <translation>A Detkcoin Core-ról</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -801,12 +801,12 @@
         <translation>Üdvözlünk</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Üdvözlünk a Qubitcoin Core-ban.</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Üdvözlünk a Detkcoin Core-ban.</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will download and store a copy of the Qubitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>A Qubitcoin Core le fogja tölteni és tárolni fogja a Qubitcoin blokklánc egy másolatát. Legalább %1GB adat lesz tárolva ebben a mappában, és ez folyamatosan nőni fog. A tárca szintén itt lesz tárolva.</translation>
+        <source>Detkcoin Core will download and store a copy of the Detkcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>A Detkcoin Core le fogja tölteni és tárolni fogja a Detkcoin blokklánc egy másolatát. Legalább %1GB adat lesz tárolva ebben a mappában, és ez folyamatosan nőni fog. A tárca szintén itt lesz tárolva.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -817,8 +817,8 @@
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -891,24 +891,24 @@
         <translation>&amp;Hálózat</translation>
     </message>
     <message>
-        <source>&amp;Start Qubitcoin Core on system login</source>
-        <translation>A Qubitcoin elindítása bejelentkezéskor</translation>
+        <source>&amp;Start Detkcoin Core on system login</source>
+        <translation>A Detkcoin elindítása bejelentkezéskor</translation>
     </message>
     <message>
         <source>Expert</source>
         <translation>szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Qubitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Detkcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Qubitcoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Qubitcoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Detkcoin network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Detkcoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -990,8 +990,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Qubitcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Detkcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1041,8 +1041,8 @@
         <translation>URI kezelés</translation>
     </message>
     <message>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
-        <translation>A qubitcoint nem lehet elindítani: click-to-pay handler</translation>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
+        <translation>A detkcoint nem lehet elindítani: click-to-pay handler</translation>
     </message>
     </context>
 <context>
@@ -1494,7 +1494,7 @@
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi qubitcoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi detkcoin az egyenlegeden.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
@@ -1552,8 +1552,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
-        <translation>A Qubitcoin Core leáll...</translation>
+        <source>Detkcoin Core is shutting down...</source>
+        <translation>A Detkcoin Core leáll...</translation>
     </message>
     </context>
 <context>
@@ -1591,7 +1591,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
+        <source>Sign the message to prove you own this Detkcoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1646,12 +1646,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>A Qubitcoin Core fejlesztői</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>A Detkcoin Core fejlesztői</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2149,8 +2149,8 @@
         <translation>Adatkönyvtár kiválasztása induláskor (alapbeállítás: 0)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Qubitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i A Qubitcoin Core Fejlesztői</translation>
+        <source>Copyright (C) 2009-%i The Detkcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i A Detkcoin Core Fejlesztői</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2288,7 +2288,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég qubitcoinod.</translation>
+        <translation>Nincs elég detkcoinod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

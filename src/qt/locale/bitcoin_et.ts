@@ -46,8 +46,8 @@
         <translation>V&amp;ali</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Qubitcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Detkcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -128,7 +128,7 @@
         <translation>Kinnita rahakoti krüpteering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BITCOINID&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -247,8 +247,8 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Saada münte Qubitcoini aadressile</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Saada münte Detkcoini aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -271,8 +271,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -299,12 +299,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Qubitcoini aadressiga</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Detkcoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Qubitcoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Detkcoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -323,8 +323,8 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoini tuumik</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoini tuumik</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -558,8 +558,8 @@
         <translation>Selline aadress on juba olemas: "%1"</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole Qubitcoinis kehtiv.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole Detkcoinis kehtiv.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -580,16 +580,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoini tuumik</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoini tuumik</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versioon</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Kirjeldus Qubitcoini Tuumast</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Kirjeldus Detkcoini Tuumast</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -611,8 +611,8 @@
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoini tuumik</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoini tuumik</translation>
     </message>
     <message>
         <source>Error</source>
@@ -661,8 +661,8 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Qubitcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Detkcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -740,7 +740,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -763,8 +763,8 @@
         <translation>URI käsitsemine</translation>
     </message>
     <message>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
-        <translation>Qubitcoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
+        <translation>Detkcoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
 <context>
@@ -1168,8 +1168,8 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Allkirjasta sõnum Qubitcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Allkirjasta sõnum Detkcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1188,8 +1188,8 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Qubitcoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Detkcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1255,12 +1255,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoini tuumik</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoini tuumik</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Qubitcoini Tuuma arendajad</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Detkcoini Tuuma arendajad</translation>
     </message>
     <message>
         <source>[testnet]</source>

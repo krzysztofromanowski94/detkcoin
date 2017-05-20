@@ -29,11 +29,12 @@ using namespace std;
  * + Contains no strange transactions
  */
 
+// ToDo CMainParams
 class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 80640;
+        consensus.nSubsidyHalvingInterval = 80640; // ToDo nSubsidyHalvingInterval
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 8000;
@@ -41,17 +42,18 @@ public:
         consensus.nPowTargetTimespan = 10 * 60; // ten minutes
         consensus.nPowTargetSpacing = 30;
         consensus.fPowAllowMinDifficultyBlocks = false;
-        /** 
+        /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
+        // ToDo pchMessageStart
         pchMessageStart[0] = 0xfe;
         pchMessageStart[1] = 0xa5;
         pchMessageStart[2] = 0x03;
         pchMessageStart[3] = 0xdd;
         vAlertPubKey = ParseHex("045337216002ca6a71d63edf062895417610a723d453e722bf4728996c58661cdac3d4dec5cecd449b9086e9602b35cc726a9e0163e1a4d40f521fbdaebb674658");
-        nDefaultPort = 7788;
+        nDefaultPort = 7788; // nDefaultPort
         nMinerThreads = 0;
         nMaxTipAge = 24 * 60 * 60;
         nPruneAfterHeight = 100000000;
@@ -67,7 +69,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
          *   vMerkleTree: 4a5e1e
          */
-        const char* pszTimestamp = "22 July 1980";
+        const char* pszTimestamp = "22 July 1980"; // ToDo timestamp
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -76,14 +78,15 @@ public:
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock.SetNull();
+        // ToDo merkle
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 112;
-        genesis.nTime    = 1389361954;
+        genesis.nTime    = 1389361954; // nTime
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2939695;
+        genesis.nNonce   = 2939695; // nNonce
 
         consensus.hashGenesisBlock = genesis.GetHash();
-               
+
         assert(consensus.hashGenesisBlock == uint256S("0x0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03"));
 
         vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com"));
@@ -91,8 +94,8 @@ public:
         vSeeds.push_back(CDNSSeedData("q2c3.ignorelist.com", "q2c3.ignorelist.com"));
         vSeeds.push_back(CDNSSeedData("q2c4.ignorelist.com", "q2c4.ignorelist.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,38);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,9);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30); // ToDo done PUBKEY_ADDRESS
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5); // ToDo done SCRIPT_ADDRESS
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,224);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
@@ -106,6 +109,7 @@ public:
         fMineBlocksOnDemand = false;
         fTestnetToBeDeprecatedFieldRPC = false;
 
+        // ToDo checkpoints
         checkpointData = (Checkpoints::CCheckpointData) {
             boost::assign::map_list_of
             ( 0,      uint256S("0x0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03"))
@@ -145,7 +149,7 @@ public:
         genesis.nTime = 1374901773;
         genesis.nNonce = 414708675;
         consensus.hashGenesisBlock = genesis.GetHash();
-        
+
         /*
         while (!(consensus.hashGenesisBlock < consensus.powLimit)){
             if (++genesis.nNonce==0) break;
@@ -154,7 +158,7 @@ public:
         printf("%u\n", genesis.nNonce);
         printf("%s\n", genesis.GetHash().ToString().c_str());
          */
-        
+
         assert(consensus.hashGenesisBlock == uint256S("0x2055f388b8bd5c6134272477eab7672af188fc70c55dbf3f6eedddf02d902aed"));
 
         vFixedSeeds.clear();

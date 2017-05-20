@@ -107,7 +107,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
+        <source>Detkcoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>

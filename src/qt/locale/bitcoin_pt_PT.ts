@@ -66,12 +66,12 @@
         <translation>Endereços de depósito</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Qubitcoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
+        <source>These are your Detkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços Detkcoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Qubitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Qubitcoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
+        <source>These are your Detkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços Detkcoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,16 +160,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS QUBITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS DETKCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem a certeza que deseja encriptar a carteira?</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your qubitcoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Qubitcoin Core irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus qubitcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>Detkcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Detkcoin Core irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus detkcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Cliente Qubitcoin Core</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Cliente Detkcoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>A reindexar blocos no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Enviar moedas para um endereço qubitcoin</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Enviar moedas para um endereço detkcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Mostrar informação sobre Qubitcoin Core</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Mostrar informação sobre Detkcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Qubitcoin para provar que os controla</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços Detkcoin para provar que os controla</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Qubitcoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Detkcoin especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Barra de separadores</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e URIs qubitcoin:)</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e URIs detkcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>&amp;Sobre o Qubitcoin Core</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>&amp;Sobre o Detkcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Qubitcoin Core</source>
-        <translation>Modificar opções de configuração de Qubitcoin Core</translation>
+        <source>Modify configuration options for Detkcoin Core</source>
+        <translation>Modificar opções de configuração de Detkcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Mostrar a lista de rótulos e endereços de receção usados</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>Abrir URI qubitcoin: ou pedido de pagamento</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>Abrir URI detkcoin: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opções da linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Show the Qubitcoin Core help message to get a list with possible Qubitcoin command-line options</source>
-        <translation>Mostrar a mensagem de ajuda do Qubitcoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
+        <source>Show the Detkcoin Core help message to get a list with possible Detkcoin command-line options</source>
+        <translation>Mostrar a mensagem de ajuda do Detkcoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Qubitcoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Qubitcoin</numerusform><numerusform>%n ligações ativas à rede Qubitcoin</numerusform></translation>
+        <source>%n active connection(s) to Detkcoin network</source>
+        <translation><numerusform>%n ligação ativa à rede Detkcoin</numerusform><numerusform>%n ligações ativas à rede Detkcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -806,8 +806,8 @@
         <translation>O endereço introduzido "%1" já se encontra no livro de endereços.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço qubitcoin válido.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço detkcoin válido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Sobre o Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Sobre o Detkcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Bem-vindo ao Qubitcoin Core.</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Bem-vindo ao Detkcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Qubitcoin Core will store its data.</source>
-        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o Qubitcoin Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Detkcoin Core will store its data.</source>
+        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o Detkcoin Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>Qubitcoin Core will download and store a copy of the Qubitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O Qubitcoin Core vai transferir e armazenar uma cópia do "block chain" (cadeia de blocos). Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
+        <source>Detkcoin Core will download and store a copy of the Detkcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O Detkcoin Core vai transferir e armazenar uma cópia do "block chain" (cadeia de blocos). Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>Utilizar uma pasta de dados personalizada:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -981,8 +981,8 @@
         <translation>Minimize ao invés de sair da aplicação quando a janela é fechada. Com esta  opção selecionada, a aplicação apenas será encerrada quando escolher Sair da aplicação no menú.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Qubitcoin Core.</source>
-        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Qubitcoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Detkcoin Core.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Detkcoin Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1010,12 +1010,12 @@
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>Automatically start Qubitcoin Core after logging in to the system.</source>
-        <translation>Começar o Qubitcoin Core automaticamente ao iniciar sessão no sistema.</translation>
+        <source>Automatically start Detkcoin Core after logging in to the system.</source>
+        <translation>Começar o Detkcoin Core automaticamente ao iniciar sessão no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Qubitcoin Core on system login</source>
-        <translation>&amp;Começar o Qubitcoin Core ao iniciar o sistema</translation>
+        <source>&amp;Start Detkcoin Core on system login</source>
+        <translation>&amp;Começar o Detkcoin Core ao iniciar o sistema</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1042,16 +1042,16 @@
         <translation>&amp;Gastar troco não confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente qubitcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente detkcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear porta usando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Qubitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede da Qubitcoin através dum proxy SOCLS5.</translation>
+        <source>Connect to the Detkcoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede da Detkcoin através dum proxy SOCLS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1149,8 +1149,8 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Qubitcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Detkcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1248,16 +1248,16 @@
         <translation>Erro de pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
-        <translation>Impossível iniciar o controlador de qubitcoin: click-to-pay</translation>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de detkcoin: click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>O URL de pedido de pagamento é inválido: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Qubitcoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Qubitcoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Detkcoin address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Detkcoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1334,8 +1334,8 @@
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Qubitcoin address (e.g. %1)</source>
-        <translation>Entre um endereço Qubitcoin (ex. %1)</translation>
+        <source>Enter a Detkcoin address (e.g. %1)</source>
+        <translation>Entre um endereço Detkcoin (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1556,8 +1556,8 @@
         <translation>Limpar consola</translation>
     </message>
     <message>
-        <source>Welcome to the Qubitcoin Core RPC console.</source>
-        <translation>Bem-vindo à consola RPC do Qubitcoin Core.</translation>
+        <source>Welcome to the Detkcoin Core RPC console.</source>
+        <translation>Bem-vindo à consola RPC do Detkcoin Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1631,8 +1631,8 @@
         <translation>Reutilizar um endereço de receção existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Qubitcoin network.</source>
-        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Qubitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Detkcoin network.</source>
+        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Detkcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1864,7 +1864,7 @@
         <translation>total minimo</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for qubitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for detkcoin transactions than the network can process.</source>
         <translation>Pode pagar somente a taxa minima desde que haja um volume de transações inferior ao espaço nos blocos. No entanto tenha em atenção que esta opção poderá acabar em uma transação nunca confirmada assim que os pedidos de transações excedam a capacidade de processamento da rede.</translation>
     </message>
     <message>
@@ -2004,8 +2004,8 @@
         <translation>Pagar somente a taxa minima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Qubitcoin address</source>
-        <translation>Aviso: Endereço Qubitcoin inválido</translation>
+        <source>Warning: Invalid Detkcoin address</source>
+        <translation>Aviso: Endereço Detkcoin inválido</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2055,8 +2055,8 @@
         <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to send the payment to</source>
-        <translation>O endereço Qubitcoin para enviar o pagamento</translation>
+        <source>The Detkcoin address to send the payment to</source>
+        <translation>O endereço Detkcoin para enviar o pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2083,8 +2083,8 @@
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the qubitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Qubitcoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI qubitcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Qubitcoin.</translation>
+        <source>A message that was attached to the detkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Detkcoin network.</source>
+        <translation>Uma mensagem que estava anexada ao URI detkcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Detkcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2098,8 +2098,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
-        <translation>O Qubitcoin Core está a encerrar...</translation>
+        <source>Detkcoin Core is shutting down...</source>
+        <translation>O Detkcoin Core está a encerrar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2117,8 +2117,8 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>The Qubitcoin address to sign the message with</source>
-        <translation>O endereço Qubitcoin para designar a mensagem</translation>
+        <source>The Detkcoin address to sign the message with</source>
+        <translation>O endereço Detkcoin para designar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2149,8 +2149,8 @@
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Qubitcoin</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço Detkcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2169,12 +2169,12 @@
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <source>The Qubitcoin address the message was signed with</source>
-        <translation>O endereço Qubitcoin com que a mensagem foi designada</translation>
+        <source>The Detkcoin address the message was signed with</source>
+        <translation>O endereço Detkcoin com que a mensagem foi designada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Qubitcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Qubitcoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Detkcoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Detkcoin especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2240,12 +2240,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Os programadores do Qubitcoin Core</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Os programadores do Detkcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2782,8 +2782,8 @@
         <translation>Esta é uma versão de testes pré-lançamento - use à sua responsabilidade - não usar para minar ou aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Qubitcoin Core is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador. O Qubitcoin Core provavelmente já está a correr.</translation>
+        <source>Unable to bind to %s on this computer. Detkcoin Core is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador. O Detkcoin Core provavelmente já está a correr.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2958,8 +2958,8 @@
         <translation>Vinculado para dar o endereço para atender as ligações JSON-RPC. Use [host]: Notação de porta para IPv6. Esta opção pode ser especificada várias vezes (padrão: ligam-se a todas as interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Qubitcoin Core is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s. Provavelmente o Qubitcoin Core já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. Detkcoin Core is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s. Provavelmente o Detkcoin Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -2970,8 +2970,8 @@
         <translation>Definir tamanho máximo de transações com alta-prioridade/baixa-taxa em bytes (por defeito: %d)</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Qubitcoin Core will not work properly.</source>
-        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Qubitcoin Core não irá funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Detkcoin Core will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Detkcoin Core não irá funcionar correctamente.</translation>
     </message>
     <message>
         <source>(default: %u)</source>
@@ -2982,12 +2982,12 @@
         <translation>Escolha a pasta de dados ao iniciar (por defeito: 0)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Qubitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Os Programadores do Qubitcoin Core</translation>
+        <source>Copyright (C) 2009-%i The Detkcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i Os Programadores do Detkcoin Core</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Qubitcoin Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Qubitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Detkcoin Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Detkcoin Core</translation>
     </message>
     <message>
         <source>Information</source>
@@ -3050,8 +3050,8 @@
         <translation>Nome de utilizador para ligações JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Qubitcoin Core to complete</source>
-        <translation>A Carteira precisou de ser reescrita: reinicie o Qubitcoin Core para completar o processo</translation>
+        <source>Wallet needed to be rewritten: restart Detkcoin Core to complete</source>
+        <translation>A Carteira precisou de ser reescrita: reinicie o Detkcoin Core para completar o processo</translation>
     </message>
     <message>
         <source>Warning</source>

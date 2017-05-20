@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Qubitcoin"
-            VALUE "FileDescription",    "qubitcoin-cli (JSON-RPC client for Qubitcoin Core)"
+            VALUE "CompanyName",        "Detkcoin"
+            VALUE "FileDescription",    "detkcoin-cli (JSON-RPC client for Detkcoin Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "qubitcoin-cli"
+            VALUE "InternalName",       "detkcoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "qubitcoin-cli.exe"
-            VALUE "ProductName",        "qubitcoin-cli"
+            VALUE "OriginalFilename",   "detkcoin-cli.exe"
+            VALUE "ProductName",        "detkcoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

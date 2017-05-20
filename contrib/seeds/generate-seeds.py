@@ -11,7 +11,7 @@ argument:
     nodes_main.txt
     nodes_test.txt
 
-These files must consist of lines in the format 
+These files must consist of lines in the format
 
     <ip>
     <ip>:<port>
@@ -31,6 +31,7 @@ The output will be two data structures with the peers in binary format:
 
 These should be pasted into `src/chainparamsseeds.h`.
 '''
+# ToDo node list?
 from __future__ import print_function, division
 from base64 import b32decode
 from binascii import a2b_hex
@@ -132,7 +133,6 @@ def main():
     with open(os.path.join(indir,'nodes_test.txt'),'r') as f:
         process_nodes(g, f, 'pnSeed6_test', 18333)
     g.write('#endif // BITCOIN_CHAINPARAMSSEEDS_H\n')
-            
+
 if __name__ == '__main__':
     main()
-

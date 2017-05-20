@@ -16,6 +16,7 @@ typedef int64_t CAmount;
 static const CAmount COIN = 100000;
 static const CAmount CENT = 1000;
 
+// ToDo MAX_MONEY
 /** No amount larger than this (in satoshi) is valid */
 static const CAmount MAX_MONEY = 200000000 * COIN;
 inline bool MoneyRange(const CAmount& nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
@@ -33,6 +34,7 @@ public:
     CFeeRate(const CAmount& nFeePaid, size_t nSize);
     CFeeRate(const CFeeRate& other) { nSatoshisPerK = other.nSatoshisPerK; }
 
+    // ToDo
     CAmount GetFee(size_t size) const; // unit returned is satoshis
     CAmount GetFeePerK() const { return GetFee(1000); } // satoshis-per-1000-bytes
 

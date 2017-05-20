@@ -92,7 +92,7 @@
         <translation>Одобрите шифровање новчаника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
         <translation>Упозорење: Ако се ваш новчаник шифрује а потом изгубите лозинкзу, ви ћете &lt;b&gt;ИЗГУБИТИ СВЕ BITCOIN-Е&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -187,8 +187,8 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Пошаљите новац на qubitcoin адресу</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Пошаљите новац на detkcoin адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -314,8 +314,8 @@
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>O Qubitcoin Coru</translation>
+        <source>About Detkcoin Core</source>
+        <translation>O Detkcoin Coru</translation>
     </message>
     <message>
         <source>Usage:</source>

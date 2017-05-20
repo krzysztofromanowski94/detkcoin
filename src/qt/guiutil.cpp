@@ -107,7 +107,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Qubitcoin address (e.g. %1)").arg("ZTehaQmekR5PcgvFE6wuLcn8DnJ2cbMAao"));
+    widget->setPlaceholderText(QObject::tr("Enter a Detkcoin address (e.g. %1)").arg("ZTehaQmekR5PcgvFE6wuLcn8DnJ2cbMAao"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -125,7 +125,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("qubitcoin"))
+    if(!uri.isValid() || uri.scheme() != QString("detkcoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -189,9 +189,9 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("qubitcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("detkcoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 11, "qubitcoin:");
+        uri.replace(0, 11, "detkcoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -199,7 +199,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("qubitcoin:%1").arg(info.address);
+    QString ret = QString("detkcoin:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -569,11 +569,11 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 boost::filesystem::path static StartupShortcutPath()
 {
     if (GetBoolArg("-testnet", false))
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Qubitcoin (testnet).lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Detkcoin (testnet).lnk";
     else if (GetBoolArg("-regtest", false))
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Qubitcoin (regtest).lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Detkcoin (regtest).lnk";
 
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Qubitcoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Detkcoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -668,7 +668,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "qubitcoin.desktop";
+    return GetAutostartDir() / "detkcoin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -710,11 +710,11 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (GetBoolArg("-testnet", false))
-            optionFile << "Name=Qubitcoin (testnet)\n";
+            optionFile << "Name=Detkcoin (testnet)\n";
         else if (GetBoolArg("-regtest", false))
-            optionFile << "Name=Qubitcoin (regtest)\n";
+            optionFile << "Name=Detkcoin (regtest)\n";
         else
-            optionFile << "Name=Qubitcoin\n";
+            optionFile << "Name=Detkcoin\n";
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", GetBoolArg("-testnet", false), GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

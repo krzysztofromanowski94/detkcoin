@@ -11,10 +11,13 @@
 #include "uint256.h"
 #include "util.h"
 
+
+// ToDo nTargetTimespan nTargetSpacing nInterval
 static const int64_t nTargetTimespan = 10 * 60; // 10 minutes
 static const int64_t nTargetSpacing = 30; // 30 seconds
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 20 blocks
 
+// ToDo nMaxAdjust[Down/Up]
 static const int64_t nMaxAdjustDown = 100; // 100% adjustment down
 static const int64_t nMaxAdjustUp = 10; // 10% adjustment up
 
@@ -49,6 +52,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     }
 
     // Go back by what we want to be nAveragingInterval blocks
+    // didn't find in previous version of detk ToDo nAveragingInterval
     const CBlockIndex* pindexFirst = pindexLast;
     for (int i = 0; pindexFirst && i < nInterval-1; i++)
         pindexFirst = pindexFirst->pprev;

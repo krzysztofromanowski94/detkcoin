@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt qubitcoins</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt detkcoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt qubitcoins</translation>
+        <translation>Izvēlies adresi ar kuru saņemt detkcoins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -144,8 +144,8 @@
         <translation>Apstiprināt maciņa šifrēšanu</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUBITCOINS&lt;/b&gt;!</source>
-        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS QUBITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DETKCOINS&lt;/b&gt;!</source>
+        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS DETKCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -263,8 +263,8 @@
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
-        <source>Qubitcoin Core client</source>
-        <translation>Qubitcoin Core klients</translation>
+        <source>Detkcoin Core client</source>
+        <translation>Detkcoin Core klients</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -275,8 +275,8 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a Qubitcoin address</source>
-        <translation>Nosūtīt bitkoinus uz Qubitcoin adresi</translation>
+        <source>Send coins to a Detkcoin address</source>
+        <translation>Nosūtīt bitkoinus uz Detkcoin adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -299,8 +299,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>Qubitcoin</source>
-        <translation>Qubitcoin</translation>
+        <source>Detkcoin</source>
+        <translation>Detkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -315,8 +315,8 @@
         <translation>&amp;Saņemt</translation>
     </message>
     <message>
-        <source>Show information about Qubitcoin Core</source>
-        <translation>Parādīt informāciju par Qubitcoin Core</translation>
+        <source>Show information about Detkcoin Core</source>
+        <translation>Parādīt informāciju par Detkcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -331,12 +331,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your Qubitcoin addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām Qubitcoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your Detkcoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām Detkcoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Qubitcoin addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Qubitcoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified Detkcoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Detkcoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -355,20 +355,20 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qubitcoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un qubitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and detkcoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un detkcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Qubitcoin Core</source>
-        <translation>Par &amp;Qubitcoin Core</translation>
+        <source>&amp;About Detkcoin Core</source>
+        <translation>Par &amp;Detkcoin Core</translation>
     </message>
     <message>
-        <source>Open a qubitcoin: URI or payment request</source>
-        <translation>Atvērt qubitcoin URI vai maksājuma pieprasījumu</translation>
+        <source>Open a detkcoin: URI or payment request</source>
+        <translation>Atvērt detkcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -644,8 +644,8 @@
         <translation>Nupat ierakstītā adrese "%1" jau atrodas adrešu grāmatā.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Qubitcoin address.</source>
-        <translation>Ierakstītā adrese "%1" nav derīga Qubitcoin adrese.</translation>
+        <source>The entered address "%1" is not a valid Detkcoin address.</source>
+        <translation>Ierakstītā adrese "%1" nav derīga Detkcoin adrese.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -678,8 +678,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -690,8 +690,8 @@
         <translation>(%1-biti)</translation>
     </message>
     <message>
-        <source>About Qubitcoin Core</source>
-        <translation>Par Qubitcoin Core</translation>
+        <source>About Detkcoin Core</source>
+        <translation>Par Detkcoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -709,8 +709,8 @@
         <translation>Sveiciens</translation>
     </message>
     <message>
-        <source>Welcome to Qubitcoin Core.</source>
-        <translation>Sveicināts Qubitcoin Core</translation>
+        <source>Welcome to Detkcoin Core.</source>
+        <translation>Sveicināts Detkcoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -721,8 +721,8 @@
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -808,15 +808,15 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt qubitcoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt detkcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the Qubitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Qubitcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Detkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Detkcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -868,7 +868,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt Qubitcoin kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt Detkcoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -902,8 +902,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qubitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Qubitcoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Detkcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Detkcoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -949,8 +949,8 @@
         <translation>Maksājumu pieprasījuma kļūda</translation>
     </message>
     <message>
-        <source>Cannot start qubitcoin: click-to-pay handler</source>
-        <translation>Nevar palaist Qubitcoin: nospied-lai-maksātu apstrādātāju</translation>
+        <source>Cannot start detkcoin: click-to-pay handler</source>
+        <translation>Nevar palaist Detkcoin: nospied-lai-maksātu apstrādātāju</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1286,7 +1286,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Qubitcoin Kontroles Funkcijas</translation>
+        <translation>Detkcoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1417,8 +1417,8 @@
         <translation>Transakcijas izveidošana neizdevās!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Qubitcoin address</source>
-        <translation>Brīdinājums: Nederīga Qubitcoin adrese</translation>
+        <source>Warning: Invalid Detkcoin address</source>
+        <translation>Brīdinājums: Nederīga Detkcoin adrese</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1491,8 +1491,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Qubitcoin Core is shutting down...</source>
-        <translation>Qubitcoin Core tiek izslēgta...</translation>
+        <source>Detkcoin Core is shutting down...</source>
+        <translation>Detkcoin Core tiek izslēgta...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1538,8 +1538,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Qubitcoin address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Qubitcoin adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this Detkcoin address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Detkcoin adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1621,12 +1621,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Qubitcoin Core</source>
-        <translation>Qubitcoin Core</translation>
+        <source>Detkcoin Core</source>
+        <translation>Detkcoin Core</translation>
     </message>
     <message>
-        <source>The Qubitcoin Core developers</source>
-        <translation>Qubitcoin Core izstrādātāji</translation>
+        <source>The Detkcoin Core developers</source>
+        <translation>Detkcoin Core izstrādātāji</translation>
     </message>
     <message>
         <source>[testnet]</source>

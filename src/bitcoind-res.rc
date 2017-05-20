@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Qubitcoin"
-            VALUE "FileDescription",    "qubitcoind (Qubitcoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Detkcoin"
+            VALUE "FileDescription",    "detkcoind (Detkcoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "qubitcoind"
+            VALUE "InternalName",       "detkcoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "qubitcoind.exe"
-            VALUE "ProductName",        "qubitcoind"
+            VALUE "OriginalFilename",   "detkcoind.exe"
+            VALUE "ProductName",        "detkcoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
