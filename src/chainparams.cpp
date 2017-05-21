@@ -34,26 +34,26 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 80640; // ToDo nSubsidyHalvingInterval
+        consensus.nSubsidyHalvingInterval = 10000; // ToDo nSubsidyHalvingInterval | origin: 80640
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 8000;
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 10 * 60; // ten minutes
-        consensus.nPowTargetSpacing = 30;
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // 10 * 60; // ten minutes ToDo done
+        consensus.nPowTargetSpacing =5 * 60; // 30; ToDo done
         consensus.fPowAllowMinDifficultyBlocks = false;
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        // ToDo pchMessageStart
-        pchMessageStart[0] = 0xfe;
-        pchMessageStart[1] = 0xa5;
-        pchMessageStart[2] = 0x03;
-        pchMessageStart[3] = 0xdd;
+        // ToDo pchMessageStart done
+        pchMessageStart[0] = 0xae;
+        pchMessageStart[1] = 0xbf;
+        pchMessageStart[2] = 0xc0;
+        pchMessageStart[3] = 0xd1;
         vAlertPubKey = ParseHex("045337216002ca6a71d63edf062895417610a723d453e722bf4728996c58661cdac3d4dec5cecd449b9086e9602b35cc726a9e0163e1a4d40f521fbdaebb674658");
-        nDefaultPort = 7788; // nDefaultPort
+        nDefaultPort = 9998; // nDefaultPort P2P? origin: 7788
         nMinerThreads = 0;
         nMaxTipAge = 24 * 60 * 60;
         nPruneAfterHeight = 100000000;
@@ -69,25 +69,25 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
          *   vMerkleTree: 4a5e1e
          */
-        const char* pszTimestamp = "22 July 1980"; // ToDo timestamp
+        const char* pszTimestamp = "Cassubian Foundation for Digital Profit 2014"; // ToDo timestamp done
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 1 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04ffff001d01042c43617373756269616e20466f756e646174696f6e20666f72204469676974616c2050726f6669742032303134") << OP_CHECKSIG; // ToDo done
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock.SetNull();
-        // ToDo merkle
+        // ToDo merkle done ?
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 112;
-        genesis.nTime    = 1389361954; // nTime
-        genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2939695; // nNonce
+        genesis.nTime    = 1404854056; // origin: 1389361954; // nTime
+        genesis.nBits    = 0x1e0fffff; // in dekt: bnProofOfWorkLimit.GetCompact(); done?
+        genesis.nNonce   = 1176006659; // origin: 2939695; // nNonce
 
         consensus.hashGenesisBlock = genesis.GetHash();
 
-        assert(consensus.hashGenesisBlock == uint256S("0x0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db")); // ToDo done
 
         vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com"));
         vSeeds.push_back(CDNSSeedData("q2c2.ignorelist.com", "q2c2.ignorelist.com"));
