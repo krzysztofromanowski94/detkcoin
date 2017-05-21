@@ -64,8 +64,7 @@ uint64_t nPruneTarget = 0;
 bool fAlerts = DEFAULT_ALERTS;
 
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying and mining) */
-// ToDo minRelayTxFee
-CFeeRate minRelayTxFee = CFeeRate(5000);
+CFeeRate minRelayTxFee = CFeeRate(100000); // ToDo minRelayTxFee // ToDo done?
 
 CTxMemPool mempool(::minRelayTxFee);
 
@@ -1241,31 +1240,44 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 
 
 // ToDo nStartSubsidy nMinSubsidy nGenesisBlockRewardCoin
-static const CAmount nStartSubsidy = 2048 * COIN;
-static const CAmount nMinSubsidy = 1 * COIN;
-static const CAmount nGenesisBlockRewardCoin = 1 * COIN;
+static const CAmount nStartSubsidy = 50 * COIN;
+static const CAmount nMinSubsidy = 10 * COIN;
+static const CAmount nGenesisBlockRewardCoin = 10000 * COIN;
 
-CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams) // ToDo == GetBlockValue
+
+CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams) // ToDo == GetBlockValue done?
 {
-    if (nHeight == 0)
+    if (nHeight <= 3)
     {
         return nGenesisBlockRewardCoin;
     }
 
-	if ((nHeight>=1)&&(nHeight<=1000))
-	{
-        return nGenesisBlockRewardCoin;
-	}
+	// if ((nHeight>=1)&&(nHeight<=1000))
+	// {
+  //       return nGenesisBlockRewardCoin;
+	// }
 
-    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
-    // Force block reward to minimum when right shift is undefined.
-    if (halvings >= 64)
-        return nMinSubsidy;
+    // int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
+    // // Force block reward to minimum when right shift is undefined.
+    // if (halvings >= 64)
+    //     return nMinSubsidy;
 
-    CAmount nSubsidy = nStartSubsidy;
-    nSubsidy >>= halvings;
-    if (nSubsidy < nMinSubsidy)
-        return nMinSubsidy;
+
+
+    // CAmount nSubsidy = nStartSubsidy;
+    // nSubsidy >>= halvings;
+    // if (nSubsidy < nMinSubsidy)
+    //     return nMinSubsidy;
+
+    //int halvingGap = 30000; // Num of blocks between 1st and second halving
+
+    while (nHeight > consensusParams.nSubsidyHalvingInterval) {
+        nSubsidy /= 2;
+        consensusParams.nSubsidyHalvingInterval += consensusParams.halvingGap;
+        consensusParams.halvingGap += 10000; // Next halving height gap is 10,000 blocks more than the last
+    }
+
+
     return nSubsidy;
 }
 

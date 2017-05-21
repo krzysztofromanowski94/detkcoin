@@ -12,12 +12,12 @@
 #include "util.h"
 
 
-// ToDo nTargetTimespan nTargetSpacing nInterval
-static const int64_t nTargetTimespan = 10 * 60; // 10 minutes
-static const int64_t nTargetSpacing = 30; // 30 seconds
+// ToDo done nTargetTimespan nTargetSpacing nInterval
+static const int64_t nTargetTimespan = 60 * 60; // done  was 10 minutes
+static const int64_t nTargetSpacing = 5 * 60;  // was 30; // done
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 20 blocks
 
-// ToDo nMaxAdjust[Down/Up]
+// ToDo nMaxAdjust[Down/Up] done? might me changed with nTargetTimespan
 static const int64_t nMaxAdjustDown = 100; // 100% adjustment down
 static const int64_t nMaxAdjustUp = 10; // 10% adjustment up
 

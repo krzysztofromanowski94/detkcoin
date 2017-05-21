@@ -35,12 +35,13 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 10000; // ToDo nSubsidyHalvingInterval | origin: 80640
+        consensus.halvingGap = 30000; // used in GetBlockSubsidy() for setting reasonable subsidy
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 8000;
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // 10 * 60; // ten minutes ToDo done
-        consensus.nPowTargetSpacing =5 * 60; // 30; ToDo done
+        consensus.nPowTargetSpacing = 5 * 60; // 30; ToDo done
         consensus.fPowAllowMinDifficultyBlocks = false;
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -89,7 +90,7 @@ public:
 
         assert(consensus.hashGenesisBlock == uint256S("0x0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db")); // ToDo done
 
-        vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com"));
+        vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com")); // ToDo done? 
         vSeeds.push_back(CDNSSeedData("q2c2.ignorelist.com", "q2c2.ignorelist.com"));
         vSeeds.push_back(CDNSSeedData("q2c3.ignorelist.com", "q2c3.ignorelist.com"));
         vSeeds.push_back(CDNSSeedData("q2c4.ignorelist.com", "q2c4.ignorelist.com"));
@@ -110,7 +111,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
 
         // ToDo checkpoints
-        checkpointData = (Checkpoints::CCheckpointData) {
+        checkpointData = (Checkpoints::CCheckpointData) { // ToDo done? possibly working
             boost::assign::map_list_of
             ( 0,      uint256S("0x0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03"))
             ( 284003, uint256S("0x0000000004dca4fce21f6c07cd8d47fa7303b6309d3522dda059ec333883e73d"))
