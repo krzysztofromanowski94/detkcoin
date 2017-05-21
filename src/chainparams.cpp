@@ -35,7 +35,6 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 10000; // ToDo nSubsidyHalvingInterval | origin: 80640
-        consensus.halvingGap = 30000; // used in GetBlockSubsidy() for setting reasonable subsidy
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 8000;
@@ -86,11 +85,11 @@ public:
         genesis.nBits    = 0x1e0fffff; // in dekt: bnProofOfWorkLimit.GetCompact(); done?
         genesis.nNonce   = 1176006659; // origin: 2939695; // nNonce
 
-        consensus.hashGenesisBlock = genesis.GetHash();
+        consensus.hashGenesisBlock = genesis.GetHash(); // ToDo <- focus on it now!
 
         assert(consensus.hashGenesisBlock == uint256S("0x0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db")); // ToDo done
 
-        vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com")); // ToDo done? 
+        vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com")); // ToDo done?
         vSeeds.push_back(CDNSSeedData("q2c2.ignorelist.com", "q2c2.ignorelist.com"));
         vSeeds.push_back(CDNSSeedData("q2c3.ignorelist.com", "q2c3.ignorelist.com"));
         vSeeds.push_back(CDNSSeedData("q2c4.ignorelist.com", "q2c4.ignorelist.com"));
@@ -113,13 +112,11 @@ public:
         // ToDo checkpoints
         checkpointData = (Checkpoints::CCheckpointData) { // ToDo done? possibly working
             boost::assign::map_list_of
-            ( 0,      uint256S("0x0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03"))
-            ( 284003, uint256S("0x0000000004dca4fce21f6c07cd8d47fa7303b6309d3522dda059ec333883e73d"))
-            (1800000, uint256S("0x00000bfc5ce5dab0462a504252309c05cc6388cbd530a96163d584250f514c8e")),
-            1470061476, // * UNIX timestamp of last checkpoint block
-            2175856,    // * total number of transactions between genesis and last checkpoint
+            ( 0,      uint256S("0x0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db")),
+            1404854056, // * UNIX timestamp of last checkpoint block
+            1,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            2880.0      // * estimated number of transactions per day after checkpoint
+            10000.0      // * estimated number of transactions per day after checkpoint
         };
     }
 };

@@ -17,7 +17,7 @@ uint256 CBlockHeader::GetHash() const
     return Hash5(BEGIN(nVersion), END(nNonce));
 }
 
-uint256 CBlock::BuildMerkleTree(bool* fMutated) const // ToDo BuildMerkleTree done?
+uint256 CBlock::BuildMerkleTree(bool* fMutated) const // ToDo BuildMerkleTree done? 
 {
     /* WARNING! If you're reading this because you're learning about crypto
        and/or designing a new system that will use merkle trees, keep in mind

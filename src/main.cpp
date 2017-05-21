@@ -1243,10 +1243,13 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 static const CAmount nStartSubsidy = 50 * COIN;
 static const CAmount nMinSubsidy = 10 * COIN;
 static const CAmount nGenesisBlockRewardCoin = 10000 * COIN;
-
+static int nSubsidyHalvingInterval = 0;
+static int halvingGap = 30000; // used in GetBlockSubsidy() for setting reasonable subsidy
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams) // ToDo == GetBlockValue done?
 {
+    if (nSubsidyHalvingInterval == 0)
+        nSubsidyHalvingInterval = consensusParams.nSubsidyHalvingInterval;
     if (nHeight <= 3)
     {
         return nGenesisBlockRewardCoin;
@@ -1264,17 +1267,17 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams) /
 
 
 
-    // CAmount nSubsidy = nStartSubsidy;
+     CAmount nSubsidy = nStartSubsidy;
     // nSubsidy >>= halvings;
     // if (nSubsidy < nMinSubsidy)
     //     return nMinSubsidy;
 
     //int halvingGap = 30000; // Num of blocks between 1st and second halving
 
-    while (nHeight > consensusParams.nSubsidyHalvingInterval) {
+    while (nHeight > nSubsidyHalvingInterval) {
         nSubsidy /= 2;
-        consensusParams.nSubsidyHalvingInterval += consensusParams.halvingGap;
-        consensusParams.halvingGap += 10000; // Next halving height gap is 10,000 blocks more than the last
+        nSubsidyHalvingInterval += halvingGap;
+        halvingGap += 10000; // Next halving height gap is 10,000 blocks more than the last
     }
 
 
