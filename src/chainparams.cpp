@@ -18,6 +18,11 @@ using namespace std;
 
 #include "chainparamsseeds.h"
 
+// #include <iostream>
+// #include "test/bignum.h"
+
+// static CBigNum bnProofOfWorkLimit(~uint256(0) >> 26);
+
 /**
  * Main network
  */
@@ -74,20 +79,19 @@ public:
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 1 * COIN;
+        txNew.vout[0].nValue = 512 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04ffff001d01042c43617373756269616e20466f756e646174696f6e20666f72204469676974616c2050726f6669742032303134") << OP_CHECKSIG; // ToDo done
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock.SetNull();
-        // ToDo merkle done ?
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
-        genesis.nVersion = 112;
-        genesis.nTime    = 1404854056; // origin: 1389361954; // nTime
-        genesis.nBits    = 0x1e0fffff; // in dekt: bnProofOfWorkLimit.GetCompact(); done?
-        genesis.nNonce   = 1176006659; // origin: 2939695; // nNonce
-
-        consensus.hashGenesisBlock = genesis.GetHash(); // ToDo <- focus on it now!
-
-        assert(consensus.hashGenesisBlock == uint256S("0x0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db")); // ToDo done
+        assert(genesis.hashMerkleRoot == uint256S("d863de2e017278b5a2763b07aff43ce3e4b37190350fe27614294a9ba940b178"));
+        genesis.nVersion = 1;
+        genesis.nTime    = 1404854056;
+        genesis.nBits    = 490733567;
+        genesis.nNonce   = 1176006659;
+        consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db")); // ToDo
+        printf("%s\n", "asdasd2");
 
         vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com")); // ToDo done?
         vSeeds.push_back(CDNSSeedData("q2c2.ignorelist.com", "q2c2.ignorelist.com"));
@@ -133,19 +137,19 @@ public:
         consensus.nMajorityRejectBlockOutdated = 75;
         consensus.nMajorityWindow = 100;
         consensus.fPowAllowMinDifficultyBlocks = true;
-        pchMessageStart[0] = 0x01;
-        pchMessageStart[1] = 0x1A;
-        pchMessageStart[2] = 0x39;
-        pchMessageStart[3] = 0xF7;
-        vAlertPubKey = ParseHex("04deffaef5b9552d1635013708eff25f2fac734cd6720d86fe83f9618572eb095b738efd752128b885c40ca0a37535df5a4b2b2cae5c80cea9bf315fb67ce9fcb2");
+        pchMessageStart[0] = 0xae;
+        pchMessageStart[1] = 0xbf;
+        pchMessageStart[2] = 0xc0;
+        pchMessageStart[3] = 0xd1;
+        vAlertPubKey = ParseHex("045337216002ca6a71d63edf062895417610a723d453e722bf4728996c58661cdac3d4dec5cecd449b9086e9602b35cc726a9e0163e1a4d40f521fbdaebb674658");
         nDefaultPort = 11788;
         nMinerThreads = 0;
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1374901773;
-        genesis.nNonce = 414708675;
+        genesis.nTime    = 1404854056;
+        genesis.nNonce   = 1176006659;
         consensus.hashGenesisBlock = genesis.GetHash();
 
         /*
