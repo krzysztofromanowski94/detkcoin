@@ -137,18 +137,20 @@ public:
         consensus.nMajorityRejectBlockOutdated = 75;
         consensus.nMajorityWindow = 100;
         consensus.fPowAllowMinDifficultyBlocks = true;
-        pchMessageStart[0] = 0xae;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xc0;
-        pchMessageStart[3] = 0xd1;
-        vAlertPubKey = ParseHex("045337216002ca6a71d63edf062895417610a723d453e722bf4728996c58661cdac3d4dec5cecd449b9086e9602b35cc726a9e0163e1a4d40f521fbdaebb674658");
+        pchMessageStart[0] = 0xbf;
+        pchMessageStart[1] = 0xc0;
+        pchMessageStart[2] = 0xd1;
+        pchMessageStart[3] = 0xe2;
+        vAlertPubKey = ParseHex("04deffaef5b9552d1635013708eff25f2fac734cd6720d86fe83f9618572eb095b738efd752128b885c40ca0a37535df5a4b2b2cae5c80cea9bf315fb67ce9fcb2");
         nDefaultPort = 11788;
         nMinerThreads = 0;
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
+        genesis.nVersion = 1;
         genesis.nTime    = 1404854056;
+        genesis.nBits    = 490733567;
         genesis.nNonce   = 1176006659;
         consensus.hashGenesisBlock = genesis.GetHash();
 
@@ -161,7 +163,7 @@ public:
         printf("%s\n", genesis.GetHash().ToString().c_str());
          */
 
-        assert(consensus.hashGenesisBlock == uint256S("0x2055f388b8bd5c6134272477eab7672af188fc70c55dbf3f6eedddf02d902aed"));
+         assert(consensus.hashGenesisBlock == uint256S("0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
