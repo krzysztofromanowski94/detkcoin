@@ -1,0 +1,23 @@
+git clone https://github.com/ivansib/sgminer
+
+
+
+
+
+kadu
+teamviewer
+
+sudo add-apt-repository ppa:boost-latest/ppa
+sudo apt-get update
+sudo apt-get install g++ qt4-qmake libqt4-dev build-essential libssl-dev  git libleveldb-dev libqrencode-dev libqtgui4  libglib2.0-dev libminiupnpc-dev libboost1.55-all-dev libdb5.3++-dev libdb5.3-dev libncurses5-dev curl libjansson4 libjansson-dev
+
+
+libboost1.55-all-dev
+libboost1.54-all-dev
+
+libdb5.1++-dev libdb5.1-dev
+libdb5.3++-dev libdb5.3-dev
+
+
+
+
